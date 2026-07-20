@@ -1,18 +1,45 @@
 :root {
-  color-scheme: light;
-  --paper: #f3e7d8;
+  color-scheme: light dark;
+  --canvas: #f3e7d8;
+  --structure: #0b3e4c;
+  --decorative: #aa1e14;
+  --highlight: #d0750a;
+  --paper: var(--canvas);
   --paper-bright: #fffaf0;
   --ink: #15191a;
   --ink-soft: #273033;
   --muted: #626662;
   --line: rgba(21, 25, 26, .17);
-  --blue: #0b4b5c;
-  --red: #b32b1f;
-  --yellow: #d98606;
+  --blue: var(--structure);
+  --red: var(--decorative);
+  --yellow: var(--highlight);
   --white: #fffaf0;
   --shadow: 0 28px 70px rgba(18, 22, 22, .19);
   --content-width: min(100% - 48px, 1380px);
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --canvas: #191b1e;
+    --structure: #7f9392;
+    --decorative: #c76e62;
+    --highlight: #d0750a;
+    --paper-bright: #111718;
+    --ink: #f3e7d8;
+    --ink-soft: #c5ccc8;
+    --muted: #a7b1ad;
+    --line: rgba(243, 231, 216, .18);
+    --white: #f3e7d8;
+    --shadow: 0 28px 70px rgba(5, 8, 9, .42);
+  }
+
+  .screen-card,
+  .theme-dark { background: #070b0c; }
+  .rich-card { background: #273033; }
+  .rich-card-offset { background: color-mix(in srgb, var(--structure) 28%, var(--canvas)); }
+  .visual-detail { color: var(--canvas); }
 }
 
 * { box-sizing: border-box; }
