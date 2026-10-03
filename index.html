@@ -3,132 +3,58 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Julsai is a focused, local-first Markdown editor for macOS. Read, write, and export in one continuous document surface.">
-  <title>Julsai — Keep the document in view</title>
+  <title>Julsai — Write in the flow.</title>
+  <meta name="description" content="A free Markdown editor for Mac. Read, edit, and return to source on one continuous surface. Local files, focus modes, and HTML or PDF export.">
+  <link rel="canonical" href="https://lepurecafe.github.io/julsai/">
+  <link rel="icon" type="image/png" sizes="128x128" href="assets/julsai-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Julsai — Write in the flow.">
+  <meta property="og:description" content="A calmer place to read and write Markdown. Free for macOS 14 and later.">
+  <meta property="og:url" content="https://lepurecafe.github.io/julsai/">
+  <meta property="og:image" content="https://lepurecafe.github.io/julsai/assets/product/paper-light-054-1440.png">
+  <meta property="og:image:alt" content="Julsai 0.5.4 preview: a Markdown document in the Mac app.">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Julsai","operatingSystem":"macOS 14 or later","applicationCategory":"ProductivityApplication","url":"https://lepurecafe.github.io/julsai/","downloadUrl":"https://apps.apple.com/app/julsai/id6791138988?mt=12","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
 </head>
-<body class="site-home">
-  <div class="site-frame">
-    <header class="site-header">
-      <a class="wordmark" href="./" aria-label="Julsai home">Julsai<span aria-hidden="true">.</span></a>
-      <p class="platform">Markdown editor <span aria-hidden="true">·</span> macOS</p>
-      <nav aria-label="Primary navigation">
-        <a href="#features">Features</a>
-        <a href="support/">Support</a>
-        <a href="privacy/">Privacy</a>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> Local-first Markdown for macOS</p>
-          <h1 id="hero-title">Keep the <em>document</em><br>in view.</h1>
-          <p class="hero-lede">Julsai turns Markdown into a continuous writing surface: read naturally, edit in place, and keep the structure of the original file intact.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#experience">See the experience <span aria-hidden="true">↓</span></a>
-            <a class="text-link" href="support/">Built for macOS 14+</a>
-          </div>
-        </div>
-
-        <div class="hero-visual" aria-label="Julsai Dark editing interface">
-          <div class="hero-orbit orbit-one" aria-hidden="true"></div>
-          <div class="hero-orbit orbit-two" aria-hidden="true"></div>
-          <div class="hero-caption caption-top"><span>01</span> WRITE IN PLACE</div>
-          <figure class="screen-card screen-card-hero">
-            <img src="assets/screenshots/01-dark-julsai.png" alt="Julsai Dark showing an editable Markdown document, outline sidebar, and local document controls." width="2880" height="1800">
-          </figure>
-          <div class="hero-caption caption-bottom"><span aria-hidden="true">⌘</span> ONE CONTINUOUS SURFACE</div>
-        </div>
-      </section>
-
-      <section class="principles" aria-label="Julsai principles">
-        <div><span class="principle-number">01</span><p><strong>Read and write together.</strong> No split preview to interrupt the thought.</p></div>
-        <div><span class="principle-number">02</span><p><strong>Keep Markdown honest.</strong> Rich rendering remains grounded in the source file.</p></div>
-        <div><span class="principle-number">03</span><p><strong>Stay with your files.</strong> No account, cloud, analytics, or document service.</p></div>
-      </section>
-
-      <section class="section-intro" id="experience" aria-labelledby="experience-title">
-        <p class="section-index">01 / EXPERIENCE</p>
-        <div>
-          <h2 id="experience-title">A workspace with<br><em>room to think.</em></h2>
-          <p>Julsai keeps the calm of a reading view while making every part of a document ready to revise. The interface recedes; hierarchy stays visible.</p>
-        </div>
-      </section>
-
-      <section class="theme-showcase" aria-label="Julsai Light and Dark themes">
-        <article class="theme-panel theme-dark">
-          <div class="theme-label"><span class="theme-swatch" aria-hidden="true"></span><span>Julsai Dark</span><span class="theme-note">Ink / warm white</span></div>
-          <figure class="screen-card"><img src="assets/screenshots/01-dark-julsai.png" alt="Julsai Dark interface with a structured Markdown document." width="2880" height="1800" loading="lazy"></figure>
-        </article>
-        <article class="theme-panel theme-light">
-          <div class="theme-label"><span class="theme-swatch" aria-hidden="true"></span><span>Julsai Light</span><span class="theme-note">Paper / deep ink</span></div>
-          <figure class="screen-card"><img src="assets/screenshots/02-light-julsai.png" alt="Julsai Light interface showing the same Markdown workspace in a warm paper palette." width="2880" height="1800" loading="lazy"></figure>
-        </article>
-      </section>
-
-      <section class="focus-section" id="features" aria-labelledby="focus-title">
-        <div class="focus-copy">
-          <p class="section-index">02 / FOCUS</p>
-          <h2 id="focus-title">Make the active<br>thought <em>unmissable.</em></h2>
-          <p>Focus Mode softens the surrounding document while preserving its context. Typewriter Mode holds the current line at a comfortable writing height.</p>
-          <dl class="feature-list">
-            <div><dt><span class="feature-mark mark-red" aria-hidden="true"></span>Focus Mode</dt><dd>Current block, clearly held.</dd></div>
-            <div><dt><span class="feature-mark mark-yellow" aria-hidden="true"></span>Typewriter Mode</dt><dd>Caret anchored near eye level.</dd></div>
-            <div><dt><span class="feature-mark mark-blue" aria-hidden="true"></span>Source Mode</dt><dd>Original Markdown, always reachable.</dd></div>
-          </dl>
-        </div>
-        <div class="focus-visual">
-          <p class="screen-label">FOCUS + TYPEWRITER / ACTIVE</p>
-          <figure class="screen-card screen-card-focus"><img src="assets/screenshots/03-focus-typewriter.png" alt="Julsai Focus and Typewriter modes active on a Swift code block with semantic syntax highlighting." width="2880" height="1800" loading="lazy"></figure>
-          <p class="visual-detail">The page stays present.<br>The working line comes forward.</p>
-        </div>
-      </section>
-
-      <section class="rich-section" aria-labelledby="rich-title">
-        <div class="rich-heading">
-          <p class="section-index">03 / RICH MARKDOWN</p>
-          <h2 id="rich-title">More structure.<br><em>No detour.</em></h2>
-          <p>Bring the document all the way through: outline, YAML Front Matter, Mermaid, footnotes, tables, images, HTML, and PDF.</p>
-        </div>
-        <div class="rich-grid">
-          <article class="rich-card rich-card-large">
-            <div class="card-meta"><span>MERMAID · FRONT MATTER · EXPORT</span><span>01</span></div>
-            <figure class="screen-card"><img src="assets/screenshots/04-rich-document-export.png" alt="Julsai displaying a rich Markdown document with a diagram and export controls." width="2880" height="1800" loading="lazy"></figure>
-            <h3>From live document to finished output.</h3>
-          </article>
-          <article class="rich-card rich-card-offset">
-            <div class="card-meta"><span>RESPONSIVE TABLES</span><span>02</span></div>
-            <figure class="screen-card"><img src="assets/screenshots/05-responsive-table.png" alt="Julsai showing a readable multilingual Markdown table alongside a checklist and outline." width="2880" height="1800" loading="lazy"></figure>
-            <h3>Wide data stays readable,<br>not squeezed.</h3>
-          </article>
-        </div>
-      </section>
-
-      <section class="local-section" aria-labelledby="local-title">
-        <div class="local-art" aria-hidden="true">
-          <span class="shape shape-blue"></span><span class="shape shape-red"></span><span class="shape shape-yellow"></span><span class="shape shape-paper"></span>
-        </div>
-        <div class="local-copy">
-          <p class="section-index">04 / LOCAL-FIRST</p>
-          <h2 id="local-title">The document<br>belongs <em>with you.</em></h2>
-          <p>Julsai opens the Markdown files and folders you choose on your Mac. It has no account, advertising, analytics, or operator-controlled document server.</p>
-          <a class="button button-quiet" href="privacy/">Read the privacy policy <span aria-hidden="true">→</span></a>
-        </div>
-      </section>
-
-      <section class="closing" lang="ko" aria-labelledby="closing-title">
-        <p class="section-index">줄과 사이에 질서를 만듭니다.</p>
-        <h2 id="closing-title">읽고, 고치고,<br><em>다시 이어갑니다.</em></h2>
-        <p>Julsai는 문서의 형식을 과시하기보다 생각의 흐름을 지키는 Markdown 편집기입니다.</p>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <a class="wordmark" href="./">Julsai<span aria-hidden="true">.</span></a>
-      <div><a href="support/">Support</a><a href="privacy/">Privacy</a></div>
-      <p>Copyright © 2026 BK. All rights reserved.</p>
-    </footer>
-  </div>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="./"><img class="wordmark-icon" src="assets/julsai-icon.png" alt="" width="32" height="32">Julsai</a>
+    <nav class="desktop-nav" aria-label="Primary navigation"><a href="#experience">Experience</a><a href="#whats-next">What’s next</a><a href="support/">Support</a></nav>
+    <a class="button header-download" href="https://apps.apple.com/app/julsai/id6791138988?mt=12">Get Julsai</a>
+    <details class="mobile-menu" id="mobile-nav"><summary>Menu</summary><nav aria-label="Mobile navigation"><a href="#experience">Experience</a><a href="#whats-next">What’s next</a><a href="support/">Support</a><a href="privacy/">Privacy</a></nav></details>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-intro"><div class="hero-copy"><h1 id="hero-title">Write in the flow<span class="period">.</span></h1><p class="hero-lede">Read, edit, and return to Markdown—on one continuous surface.</p><div class="actions"><a class="button" href="https://apps.apple.com/app/julsai/id6791138988?mt=12">Get Julsai for Mac <span aria-hidden="true">→</span></a><a class="button secondary" href="#experience">Explore the editor</a></div><p class="requirements">Free · macOS 14+</p></div><p class="margin-note">Plain text<br>a brighter place<br>to think.</p></div>
+      <figure class="hero-media"><picture><source type="image/avif" srcset="assets/product/paper-light-054-800.avif 800w, assets/product/paper-light-054-1440.avif 1440w, assets/product/paper-light-054-2880.avif 2880w" sizes="(max-width: 1260px) calc(100vw - 48px), 1200px"><source type="image/webp" srcset="assets/product/paper-light-054-800.webp 800w, assets/product/paper-light-054-1440.webp 1440w, assets/product/paper-light-054-2880.webp 2880w" sizes="(max-width: 1260px) calc(100vw - 48px), 1200px"><img src="assets/product/paper-light-054-1440.png" srcset="assets/product/paper-light-054-800.png 800w, assets/product/paper-light-054-1440.png 1440w, assets/product/paper-light-054-2880.png 2880w" sizes="(max-width: 1260px) calc(100vw - 48px), 1200px" width="2880" height="1800" fetchpriority="high" decoding="async" alt="Preview of Julsai 0.5.4 on Mac: a real Markdown document, outline sidebar, and Find in Document in the upper-right toolbar."></picture><figcaption class="sr-only">Actual app capture from the upcoming 0.5.4 update, currently in review.</figcaption></figure>
+    </section>
+    <section class="experience wrap three-column" id="experience" aria-labelledby="experience-title">
+      <div class="section-copy"><h2 class="editorial" id="experience-title">One document.<br>Three ways to work.</h2><div class="short-rule" aria-hidden="true"></div><p>Read, edit, or view the source—without changing files or losing your place. Julsai keeps it simple and close to your Markdown.</p></div>
+      <div class="demo-card" id="document-demo" aria-label="Website example of document views">
+        <div class="tabs" data-tabs data-enhance hidden role="tablist" aria-label="Example document view"><button id="tab-read" role="tab" data-view="read" aria-controls="panel-read" aria-selected="true">Read</button><button id="tab-edit" role="tab" data-view="edit" aria-controls="panel-edit" aria-selected="false" tabindex="-1">Edit</button><button id="tab-source" role="tab" data-view="source" aria-controls="panel-source" aria-selected="false" tabindex="-1">Source</button></div>
+        <div id="panel-read" data-panel="read" role="tabpanel" aria-labelledby="tab-read" tabindex="0"><div id="demo-read" class="sample-prose"><h3>A Quiet Morning</h3><p>The morning light was softer today. I opened my notebook and let the thoughts arrive without hurry.</p><p>Good writing is a conversation with your future self.</p><ul><li>Clear words</li><li>A calmer mind</li><li>A more open tomorrow</li></ul><p>That’s why I keep a journal.</p></div></div>
+        <div id="panel-edit" data-panel="edit" role="tabpanel" aria-labelledby="tab-edit" hidden><label for="demo-editor">Edit this website example</label><textarea id="demo-editor" spellcheck="true"></textarea></div>
+        <div id="panel-source" data-panel="source" role="tabpanel" aria-labelledby="tab-source" hidden><label for="demo-source">Markdown source of this example</label><textarea id="demo-source" spellcheck="false"></textarea></div>
+        <p class="demo-caption">Interactive website example · not saved to a file</p><p id="demo-status" class="sr-only" role="status" aria-live="polite"></p>
+      </div>
+      <aside class="side-note"><h3 class="editorial">Switch the view,<br>not the file.</h3><div class="short-rule" aria-hidden="true"></div><p>The same document.<br>A smoother flow.</p></aside>
+    </section>
+    <section class="focus-story wrap" aria-labelledby="focus-title"><div class="section-copy"><h2 id="focus-title">Keep the sentence.<br>Keep the context.</h2><div class="short-rule red" aria-hidden="true"></div><p>Focus Mode keeps the active paragraph clear while softening its surroundings. Typewriter Mode holds the cursor at a comfortable height, even in long documents.</p></div><div class="focus-example" aria-label="Illustration of focus mode using sample prose"><p class="surrounding">The airport was quiet, and the early light made everything feel possible.</p><p class="active-sentence">A good tool does not replace a thought.<br>It makes room for the next one.</p><p class="surrounding">So I opened Julsai and kept writing,<br>one sentence at a time.</p></div></section>
+    <section class="update-band" id="whats-next" aria-labelledby="update-title"><div class="wrap update-content"><div><p class="update-label">Next: 0.5.4 · In review</p><h2 id="update-title">Find in your document.<br>Write in 33 UI languages.</h2></div><p>We’re preparing the next release with document search and a localized interface in 33 languages.<br>Julsai 0.5.3 is currently available with 25 UI languages on the Mac App Store.</p></div></section>
+    <section class="structure wrap three-column" aria-labelledby="structure-title"><div class="section-copy"><h2 id="structure-title">Structure, without<br>the detour.</h2><div class="short-rule" aria-hidden="true"></div><p>Tables, diagrams, code blocks, and more—right in your document. Keep structure inside the page, not in separate tools.</p></div>
+      <div id="structure-demo" class="demo-card structure-card" aria-label="Website examples of document structure"><div class="tabs" data-tabs data-enhance hidden role="tablist" aria-label="Document structure example"><button id="tab-table" data-view="table" role="tab" aria-selected="true" aria-controls="panel-table">Table</button><button id="tab-code" data-view="code" role="tab" aria-selected="false" aria-controls="panel-code" tabindex="-1">Code</button><button id="tab-mermaid" data-view="mermaid" role="tab" aria-selected="false" aria-controls="panel-mermaid" tabindex="-1">Mermaid</button><button id="tab-export" data-view="export" role="tab" aria-selected="false" aria-controls="panel-export" tabindex="-1">HTML · PDF</button></div>
+        <div id="panel-table" data-panel="table" role="tabpanel" aria-labelledby="tab-table" tabindex="0"><table><caption class="sr-only">Document features and formats</caption><thead><tr><th scope="col">Language</th><th scope="col">Type</th><th scope="col">Status</th></tr></thead><tbody><tr><td>Markdown</td><td>Plain text</td><td>Always</td></tr><tr><td>Diagrams</td><td>Mermaid</td><td>In document</td></tr><tr><td>Export</td><td>HTML · PDF</td><td>Keep one file</td></tr></tbody></table></div>
+        <div id="panel-code" data-panel="code" role="tabpanel" aria-labelledby="tab-code" tabindex="0" hidden><pre><code>const thought = "Keep writing.";
+console.log(thought);</code></pre><p class="panel-note">Keep code blocks alongside your prose.</p></div>
+        <div id="panel-mermaid" data-panel="mermaid" role="tabpanel" aria-labelledby="tab-mermaid" tabindex="0" hidden><pre><code>flowchart LR
+  Draft --> Edit --> Share</code></pre><p class="panel-note">In Julsai, Mermaid source becomes a diagram inside the document.</p></div>
+        <div id="panel-export" data-panel="export" role="tabpanel" aria-labelledby="tab-export" tabindex="0" hidden><h3>Finish here. Share anywhere.</h3><p>Export a document to HTML or PDF in Julsai. Your Markdown remains the source.</p><p class="panel-note">This website example does not export files.</p></div>
+      </div><aside class="side-note"><h3 class="editorial">One document<br>stays intact.</h3><div class="short-rule" aria-hidden="true"></div><p>Move between writing, structure, and export without breaking your flow.</p></aside></section>
+    <section class="closing wrap" aria-labelledby="local-title"><div class="section-copy"><h2 id="local-title">Your files<br>remain yours<span class="period">.</span></h2><p>No account. No ads. No operator-controlled document server.</p></div><div class="faq"><details><summary>Where are my files stored?</summary><p>In locations you choose on your Mac. External links and remote media may use the network; see our <a href="privacy/">privacy policy</a>.</p></details><details><summary>Can I use my existing Markdown?</summary><p>Yes. Open your Markdown or text files and move between reading, editing, and source. Three color styles—Julsai, Cyberpunk, and Postal Editorial—and 75–200% document zoom help you find a comfortable view.</p></details><details><summary>What does the next update add?</summary><p>Version 0.5.4 is in review. It adds Find in Document in the upper-right toolbar, 33 UI languages, and the refined icon. Find in Folder remains a separate sidebar action.</p></details></div><div class="closing-download"><a class="button" href="https://apps.apple.com/app/julsai/id6791138988?mt=12">Get Julsai for Mac <span aria-hidden="true">→</span></a><p class="requirements">Free · macOS 14+</p><p class="editorial closing-note">Same file,<br>further thoughts.</p></div></section>
+  </main>
+  <footer class="site-footer wrap"><a class="wordmark" href="./"><img class="wordmark-icon" src="assets/julsai-icon.png" alt="" width="32" height="32">Julsai</a><nav aria-label="Footer navigation"><a href="support/">Support</a><a href="privacy/">Privacy</a></nav><p>Copyright © 2026 BK. All rights reserved.</p></footer>
 </body>
 </html>
