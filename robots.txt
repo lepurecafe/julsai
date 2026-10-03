@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lepurecafe.github.io/julsai/sitemap.xml
