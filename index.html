@@ -1,80 +1,1061 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Julsai — Write in the flow.</title>
-  <meta name="description" content="A free Markdown editor for Mac. Read, edit, and return to source on one continuous surface. Local files, focus modes, and HTML or PDF export.">
-  <link rel="canonical" href="https://lepurecafe.github.io/julsai/">
-  <link rel="icon" type="image/png" sizes="128x128" href="assets/julsai-icon.png">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Julsai — Write in the flow.">
-  <meta property="og:description" content="A calmer place to read and write Markdown. Free for macOS 14 and later.">
-  <meta property="og:url" content="https://lepurecafe.github.io/julsai/">
-  <meta property="og:image" content="https://lepurecafe.github.io/julsai/assets/product/paper-light-054-1440.png">
-  <meta property="og:image:alt" content="Julsai on Mac: a Markdown document in the app.">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="assets/site.css">
-  <script src="assets/site.js" defer></script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Julsai","operatingSystem":"macOS 14 or later","applicationCategory":"ProductivityApplication","url":"https://lepurecafe.github.io/julsai/","downloadUrl":"https://apps.apple.com/app/julsai/id6791138988?mt=12","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
-</head>
-<body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a class="wordmark" href="./"><img class="wordmark-icon" src="assets/julsai-icon.png" alt="" width="32" height="32">Julsai</a>
-    <nav class="desktop-nav" aria-label="Primary navigation"><a href="#experience">Experience</a><a href="#languages">Languages</a><a href="support/">Support</a></nav>
-    <a class="button header-download" href="https://apps.apple.com/app/julsai/id6791138988?mt=12">Get Julsai</a>
-    <details class="mobile-menu" id="mobile-nav"><summary>Menu</summary><nav aria-label="Mobile navigation"><a href="#experience">Experience</a><a href="#languages">Languages</a><a href="support/">Support</a><a href="privacy/">Privacy</a></nav></details>
-  </header>
-  <main id="main" tabindex="-1">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-intro"><div class="hero-copy"><h1 id="hero-title">Write in the flow<span class="period">.</span></h1><p class="hero-lede">Read, edit, and return to Markdown—on one continuous surface.</p><div class="actions"><a class="button" href="https://apps.apple.com/app/julsai/id6791138988?mt=12">Get Julsai for Mac <span aria-hidden="true">→</span></a><a class="button secondary" href="#experience">Explore the editor</a></div><p class="requirements">Free · macOS 14+</p></div><p class="margin-note">Plain text<br>a brighter place<br>to think.</p></div>
-      <figure class="hero-media"><picture><source type="image/avif" srcset="assets/product/paper-light-054-800.avif 800w, assets/product/paper-light-054-1440.avif 1440w, assets/product/paper-light-054-2880.avif 2880w" sizes="(max-width: 1260px) calc(100vw - 48px), 1200px"><source type="image/webp" srcset="assets/product/paper-light-054-800.webp 800w, assets/product/paper-light-054-1440.webp 1440w, assets/product/paper-light-054-2880.webp 2880w" sizes="(max-width: 1260px) calc(100vw - 48px), 1200px"><img src="assets/product/paper-light-054-1440.png" srcset="assets/product/paper-light-054-800.png 800w, assets/product/paper-light-054-1440.png 1440w, assets/product/paper-light-054-2880.png 2880w" sizes="(max-width: 1260px) calc(100vw - 48px), 1200px" width="2880" height="1800" fetchpriority="high" decoding="async" alt="Julsai on Mac: a real Markdown document, outline sidebar, and editor toolbar."></picture><figcaption class="sr-only">Actual Julsai app capture.</figcaption></figure>
-    </section>
-    <section class="experience wrap three-column" id="experience" aria-labelledby="experience-title">
-      <div class="section-copy"><h2 class="editorial" id="experience-title">One document.<br>Three ways to work.</h2><div class="short-rule" aria-hidden="true"></div><p>Read, edit, or view the source—without changing files or losing your place. Julsai keeps it simple and close to your Markdown.</p></div>
-      <div class="demo-card" id="document-demo" aria-label="Website example of document views">
-        <div class="tabs" data-tabs data-enhance hidden role="tablist" aria-label="Example document view"><button id="tab-read" role="tab" data-view="read" aria-controls="panel-read" aria-selected="true">Read</button><button id="tab-edit" role="tab" data-view="edit" aria-controls="panel-edit" aria-selected="false" tabindex="-1">Edit</button><button id="tab-source" role="tab" data-view="source" aria-controls="panel-source" aria-selected="false" tabindex="-1">Source</button></div>
-        <div id="panel-read" data-panel="read" role="tabpanel" aria-labelledby="tab-read" tabindex="0"><div id="demo-read" class="sample-prose"><h3>A Quiet Morning</h3><p>The morning light was softer today. I opened my notebook and let the thoughts arrive without hurry.</p><p>Good writing is a conversation with your future self.</p><ul><li>Clear words</li><li>A calmer mind</li><li>A more open tomorrow</li></ul><p>That’s why I keep a journal.</p></div></div>
-        <div id="panel-edit" data-panel="edit" role="tabpanel" aria-labelledby="tab-edit" hidden><label for="demo-editor">Edit this website example</label><textarea id="demo-editor" spellcheck="true"></textarea></div>
-        <div id="panel-source" data-panel="source" role="tabpanel" aria-labelledby="tab-source" hidden><label for="demo-source">Markdown source of this example</label><textarea id="demo-source" spellcheck="false"></textarea></div>
-        <p class="demo-caption">Interactive website example · not saved to a file</p><p id="demo-status" class="sr-only" role="status" aria-live="polite"></p>
-      </div>
-      <aside class="side-note"><h3 class="editorial">Switch the view,<br>not the file.</h3><div class="short-rule" aria-hidden="true"></div><p>The same document.<br>A smoother flow.</p></aside>
-    </section>
-    <section class="color-styles wrap" id="color-styles" aria-labelledby="color-styles-title">
-      <div class="style-intro section-copy"><h2 id="color-styles-title">Same words.<br>Your own atmosphere.</h2><p>Three Color Styles, each with its own palette and typography. Choose Julsai, Cyberpunk, or Postal Editorial—then choose Light or Dark independently.</p></div>
-      <div class="style-showcase" role="group" aria-label="Three Color Styles of the same Markdown document">
-        <div class="style-stage">
-          <figure class="style-window style-julsai">
-            <figcaption><span class="style-name">Julsai</span><span class="style-purpose">Warm paper. Quiet color.</span></figcaption>
-            <picture><source type="image/webp" srcset="assets/product/color-style-julsai.1x.webp 840w, assets/product/color-style-julsai.2x.webp 1680w" sizes="(max-width: 700px) calc(100vw - 48px), (max-width: 1440px) 50vw, 720px"><img src="assets/product/color-style-julsai.1x.png" width="840" height="471" loading="lazy" decoding="async" alt="Julsai Color Style: warm paper, sans-serif headings, teal and gold accents, and a soft red quotation."></picture>
-          </figure>
-          <figure class="style-window style-cyberpunk">
-            <figcaption><span class="style-name">Cyberpunk</span><span class="style-purpose">Cool clarity. Electric accents.</span></figcaption>
-            <picture><source type="image/webp" srcset="assets/product/color-style-cyberpunk.1x.webp 840w, assets/product/color-style-cyberpunk.2x.webp 1680w" sizes="(max-width: 700px) calc(100vw - 48px), (max-width: 1440px) 50vw, 720px"><img src="assets/product/color-style-cyberpunk.1x.png" width="840" height="471" loading="lazy" decoding="async" alt="Cyberpunk Color Style: cool pale paper, sans-serif headings, blue and lime accents, and a violet quotation."></picture>
-          </figure>
-          <figure class="style-window style-postal-editorial">
-            <figcaption><span class="style-name">Postal Editorial</span><span class="style-purpose">Serif character. A red thread.</span></figcaption>
-            <picture><source type="image/webp" srcset="assets/product/color-style-postal-editorial.1x.webp 840w, assets/product/color-style-postal-editorial.2x.webp 1680w" sizes="(max-width: 700px) calc(100vw - 48px), (max-width: 1440px) 50vw, 720px"><img src="assets/product/color-style-postal-editorial.1x.png" width="840" height="471" loading="lazy" decoding="async" alt="Postal Editorial Color Style: clean paper, expressive serif headings, straight red rules, and a pale red quotation."></picture>
-          </figure>
-        </div>
-        <p class="style-showcase-caption">Actual app details · same document, Read view, 100% zoom, Light appearance. Only the Color Style changes.</p>
-      </div>
-    </section>
-    <section class="focus-story wrap" aria-labelledby="focus-title"><div class="section-copy"><h2 id="focus-title">Keep the sentence.<br>Keep the context.</h2><div class="short-rule red" aria-hidden="true"></div><p>Focus Mode keeps the active paragraph clear while softening its surroundings. Typewriter Mode holds the cursor at a comfortable height, even in long documents.</p></div><div class="focus-example" aria-label="Illustration of focus mode using sample prose"><p class="surrounding">The airport was quiet, and the early light made everything feel possible.</p><p class="active-sentence">A good tool does not replace a thought.<br>It makes room for the next one.</p><p class="surrounding">So I opened Julsai and kept writing,<br>one sentence at a time.</p></div></section>
-    <section class="update-band" id="languages" aria-labelledby="languages-title"><div class="wrap update-content"><div><p class="update-label">Made for your Mac</p><h2 id="languages-title">Your words.<br>Your language.</h2></div><p>Julsai follows your Mac’s preferred language automatically.<br>Read and write Markdown in a familiar interface.</p></div></section>
-    <section class="structure wrap three-column" aria-labelledby="structure-title"><div class="section-copy"><h2 id="structure-title">Structure, without<br>the detour.</h2><div class="short-rule" aria-hidden="true"></div><p>Tables, diagrams, code blocks, and more—right in your document. Keep structure inside the page, not in separate tools.</p></div>
-      <div id="structure-demo" class="demo-card structure-card" aria-label="Website examples of document structure"><div class="tabs" data-tabs data-enhance hidden role="tablist" aria-label="Document structure example"><button id="tab-table" data-view="table" role="tab" aria-selected="true" aria-controls="panel-table">Table</button><button id="tab-code" data-view="code" role="tab" aria-selected="false" aria-controls="panel-code" tabindex="-1">Code</button><button id="tab-mermaid" data-view="mermaid" role="tab" aria-selected="false" aria-controls="panel-mermaid" tabindex="-1">Mermaid</button><button id="tab-export" data-view="export" role="tab" aria-selected="false" aria-controls="panel-export" tabindex="-1">HTML · PDF</button></div>
-        <div id="panel-table" data-panel="table" role="tabpanel" aria-labelledby="tab-table" tabindex="0"><table><caption class="sr-only">Document features and formats</caption><thead><tr><th scope="col">Language</th><th scope="col">Type</th><th scope="col">Status</th></tr></thead><tbody><tr><td>Markdown</td><td>Plain text</td><td>Always</td></tr><tr><td>Diagrams</td><td>Mermaid</td><td>In document</td></tr><tr><td>Export</td><td>HTML · PDF</td><td>Keep one file</td></tr></tbody></table></div>
-        <div id="panel-code" data-panel="code" role="tabpanel" aria-labelledby="tab-code" tabindex="0" hidden><pre><code>const thought = "Keep writing.";
-console.log(thought);</code></pre><p class="panel-note">Keep code blocks alongside your prose.</p></div>
-        <div id="panel-mermaid" data-panel="mermaid" role="tabpanel" aria-labelledby="tab-mermaid" tabindex="0" hidden><pre><code>flowchart LR
-  Draft --> Edit --> Share</code></pre><p class="panel-note">In Julsai, Mermaid source becomes a diagram inside the document.</p></div>
-        <div id="panel-export" data-panel="export" role="tabpanel" aria-labelledby="tab-export" tabindex="0" hidden><h3>Finish here. Share anywhere.</h3><p>Export a document to HTML or PDF in Julsai. Your Markdown remains the source.</p><p class="panel-note">This website example does not export files.</p></div>
-      </div><aside class="side-note"><h3 class="editorial">One document<br>stays intact.</h3><div class="short-rule" aria-hidden="true"></div><p>Move between writing, structure, and export without breaking your flow.</p></aside></section>
-    <section class="closing wrap" aria-labelledby="local-title"><div class="section-copy"><h2 id="local-title">Your files<br>remain yours<span class="period">.</span></h2><p>No account. No ads. No operator-controlled document server.</p></div><div class="faq"><details><summary>Where are my files stored?</summary><p>In locations you choose on your Mac. External links and remote media may use the network; see our <a href="privacy/">privacy policy</a>.</p></details><details><summary>Can I use my existing Markdown?</summary><p>Yes. Open your Markdown or text files and move between reading, editing, and source. Three color styles—Julsai, Cyberpunk, and Postal Editorial—and 75–200% document zoom help you find a comfortable view.</p></details><details><summary>How do I share my writing?</summary><p>Export your document to HTML or PDF directly from Julsai. Keep your Markdown as the source, and share a finished copy.</p></details></div><div class="closing-download"><a class="button" href="https://apps.apple.com/app/julsai/id6791138988?mt=12">Get Julsai for Mac <span aria-hidden="true">→</span></a><p class="requirements">Free · macOS 14+</p><p class="editorial closing-note">Same file,<br>further thoughts.</p></div></section>
-  </main>
-  <footer class="site-footer wrap"><a class="wordmark" href="./"><img class="wordmark-icon" src="assets/julsai-icon.png" alt="" width="32" height="32">Julsai</a><nav aria-label="Footer navigation"><a href="support/">Support</a><a href="privacy/">Privacy</a></nav><p>Copyright © 2026 BK. All rights reserved.</p></footer>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="A free Markdown reader and editor for Mac. Read, edit, and export local documents."><link rel="canonical" href="https://lepurecafe.github.io/julsai/"><meta property="og:type" content="website"><meta property="og:title" content="Julsai — Read it. Edit it. Keep it yours."><meta property="og:description" content="A free Markdown reader and editor for macOS 14 or later."><meta property="og:url" content="https://lepurecafe.github.io/julsai/"><meta property="og:image" content="https://lepurecafe.github.io/julsai/assets/product/paper-light-054-1440.png"><meta property="og:image:alt" content="Julsai on Mac showing a Markdown document"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Julsai","operatingSystem":"macOS 14 or later","applicationCategory":"ProductivityApplication","url":"https://lepurecafe.github.io/julsai/","downloadUrl":"https://apps.apple.com/app/julsai/id6791138988?mt=12","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script><meta name="theme-color" content="#ffffff"><title>Julsai — Read it. Edit it. Keep it yours.</title><link rel="icon" href="assets/julsai-icon.png"><link rel="preload" href="assets/fonts/PretendardVariable.woff2" as="font" type="font/woff2" crossorigin><style>@font-face {
+  font-family: 'Pretendard Variable';
+  src: url('assets/fonts/PretendardVariable.woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('assets/fonts/jetbrains-mono-latin-wght-normal.woff2') format('woff2');
+  font-weight: 100 800;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  color-scheme: light;
+  --page: #ffffff;
+  --ink: #171a1d;
+  --secondary: #565c63;
+  --muted: #70767d;
+  --line: #e1e4e8;
+  --soft: #f5f6f7;
+  --amber: #ffb13b;
+  --orange: #ef8a09;
+  --action: #9b4d00;
+  --tint: #fff4e2;
+  --font: 'Pretendard Variable', 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', 'Pretendard Variable', 'SFMono-Regular', Consolas, monospace;
+  --ease: cubic-bezier(.16, 1, .3, 1);
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 0; -webkit-text-size-adjust: 100%; }
+body { margin: 0; color: var(--ink); background: var(--page); font-family: var(--font); font-size: 17px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+button, input, textarea, select { font: inherit; color: inherit; }
+button, a, input, textarea, summary { -webkit-tap-highlight-color: transparent; }
+button { cursor: pointer; }
+button, input { border-radius: 0; }
+a { color: inherit; text-decoration: none; }
+button { padding: 0; border: 0; background: none; }
+img, svg { vertical-align: middle; }
+img { max-width: 100%; height: auto; }
+button:disabled { cursor: default; opacity: .5; }
+[hidden] { display: none !important; }
+::selection { background: #ffdb9d; color: #171a1d; }
+:focus-visible { outline: 3px solid var(--action); outline-offset: 4px; }
+button:focus:not(:focus-visible), a:focus:not(:focus-visible) { outline: none; }
+h1, h2, h3, p { margin: 0; }
+h1, h2, h3 { font-weight: 800; word-break: keep-all; overflow-wrap: break-word; }
+h1, h2 { letter-spacing: -.035em; }
+h2 { font-size: 52px; line-height: 1.22; }
+h3 { font-size: 24px; line-height: 1.4; letter-spacing: -.025em; }
+p { word-break: keep-all; overflow-wrap: break-word; }
+section[id], div[id], article[id] { scroll-margin-top: 104px; }
+.shell { width: calc(100% - 96px); max-width: 1200px; margin-inline: auto; }
+.section-pad { padding-block: 124px; }
+.section-pad[id] { scroll-margin-top: 0; }
+.icon { display: inline-block; flex: none; width: 22px; height: 22px; }
+.symbol-sprite { position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none; }
+.mobile-only { display: none; }
+.skip-link { position: fixed; z-index: 100; top: 12px; left: 16px; padding: 12px 20px; border-radius: 8px; color: white; background: var(--ink); transform: translateY(-150%); }
+.skip-link:focus { transform: translateY(0); }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 56px; padding: 13px 29px; border: 1px solid transparent; border-radius: 999px; font-size: 17px; font-weight: 700; line-height: 1.35; text-align: center; transition: background 180ms var(--ease), box-shadow 180ms var(--ease), transform 180ms var(--ease); }
+.button:hover { transform: translateY(-2px); }
+.button:active { transform: translateY(0); }
+.button-amber { background: var(--amber); color: var(--ink); box-shadow: 0 3px 9px #d6800920; }
+.button-amber:hover { background: #ffbc55; box-shadow: 0 6px 17px #d6800928; }
+.button-dark { color: #ffffff; background: var(--ink); }
+.button-dark:hover { background: #34393f; }
+.button-small { min-height: 40px; padding: 8px 21px; font-size: 14px; }
+.icon-button { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 8px; color: inherit; transition: background 150ms var(--ease); }
+.icon-button:hover { background: #171a1d0b; }
+.text-action { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; font-size: 17px; font-weight: 700; line-height: 1.5; }
+.text-action .icon { transition: transform 180ms var(--ease); }
+.text-action:hover .icon { transform: translateX(4px); }
+.text-link { display: inline-flex; align-items: center; gap: 7px; min-height: 36px; color: var(--action); font-size: 15px; font-weight: 650; text-decoration: underline; text-decoration-color: #9b4d0055; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.text-link:hover { text-decoration-color: currentColor; }
+.text-link .icon { width: 19px; height: 19px; }
+.site-header { position: sticky; top: 0; z-index: 40; width: 100%; background: #fffffff2; backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid #e1e4e800; }
+.nav { display: flex; align-items: center; gap: 44px; min-height: 76px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; flex-shrink: 0; font-size: 30px; font-weight: 800; line-height: 1.1; letter-spacing: -.045em; }
+.brand img { flex: none; width: 32px; height: 32px; }
+.nav-links { display: flex; align-items: center; gap: 33px; font-size: 15px; font-weight: 650; }
+.nav-links a { display: inline-flex; align-items: center; min-height: 44px; white-space: nowrap; transition: color 160ms var(--ease); }
+.nav-links a:hover { color: var(--action); }
+.nav-actions { display: flex; align-items: center; gap: 23px; margin-inline-start: auto; }
+.language-switch { min-height: 44px; padding: 7px 0; font-size: 14px; line-height: 1.4; font-weight: 550; white-space: nowrap; }
+.language-switch:hover { color: var(--action); }
+.menu-toggle { display: none; }
+.hero { padding-top: 53px; }
+.hero-copy { text-align: center; }
+.hero-copy h1 { font-size: clamp(62px, 6.15vw, 80px); font-weight: 850; line-height: 1.17; letter-spacing: -.03em; }
+.hero-line { display: inline-block; max-width: 100%; }
+.underline { position: relative; }
+.underline::after { position: absolute; right: 0; bottom: -.035em; left: 0; height: 5px; content: ''; background: var(--orange); }
+.hero-description { margin-top: 25px; color: #34393f; font-size: 20px; line-height: 1.65; letter-spacing: -.015em; }
+.hero-actions { display: flex; align-items: center; justify-content: center; gap: 34px; margin-top: 30px; }
+.requirements { margin-top: 12px; color: var(--muted); font-size: 13px; }
+.hero-product { margin-top: 56px; }
+.preview-caption { margin-top: 18px; color: var(--muted); font-size: 12px; line-height: 1.7; text-align: center; }
+html[lang='en'] .hero-copy h1 { font-size: clamp(64px, 6.25vw, 82px); line-height: 1.07; letter-spacing: -.045em; }
+html[lang='en'] .hero-description { letter-spacing: -.01em; }
+
+/* Document surfaces share semantic roles with the proposed app theme. */
+.doc-window {
+  --doc-canvas: #ffffff;
+  --doc-panel: #f5f6f7;
+  --doc-toolbar: #f7f8f9;
+  --doc-text: #171a1d;
+  --doc-secondary: #5a626c;
+  --doc-line: #dde1e5;
+  --doc-selected: #fff0d7;
+  --doc-action: #9b4d00;
+  --doc-structure: #ef8a09;
+  --doc-code: #f4f5f7;
+  --doc-code-text: #303943;
+  --doc-mark: #ffdc99;
+  display: flex; position: relative; flex-direction: column; min-width: 0; height: 600px; overflow: hidden;
+  color: var(--doc-text); background: var(--doc-canvas); border: 1px solid #d9dde1; border-radius: 16px;
+  box-shadow: 0 24px 58px #171a1d0e, 0 5px 15px #171a1d0b;
+  color-scheme: light; text-align: left; font-weight: 400;
+}
+.doc-window[data-appearance='dark'] {
+  --doc-canvas: #1c1e21; --doc-panel: #22252a; --doc-toolbar: #292c31;
+  --doc-text: #f6f7f8; --doc-secondary: #b8bfc7; --doc-line: #454b54;
+  --doc-selected: #59431f; --doc-action: #ffc26c; --doc-structure: #ffc26c; --doc-code: #292d33;
+  --doc-code-text: #e2e7ed; --doc-mark: #6e4d14; color-scheme: dark; border-color: #454b54;
+}
+.doc-window :focus-visible { outline-color: var(--doc-action); }
+@media (prefers-color-scheme: dark) {
+  .doc-window[data-appearance='system'] {
+    --doc-canvas: #1c1e21; --doc-panel: #22252a; --doc-toolbar: #292c31;
+    --doc-text: #f6f7f8; --doc-secondary: #b8bfc7; --doc-line: #454b54;
+    --doc-selected: #59431f; --doc-action: #ffc26c; --doc-structure: #ffc26c; --doc-code: #292d33;
+    --doc-code-text: #e2e7ed; --doc-mark: #6e4d14; color-scheme: dark; border-color: #454b54;
+  }
+}
+.doc-toolbar { display: flex; position: relative; z-index: 5; flex: none; align-items: center; gap: 18px; height: 50px; padding: 0 17px; background: var(--doc-toolbar); border-bottom: 1px solid var(--doc-line); }
+.traffic-lights { display: flex; flex: none; align-items: center; gap: 7px; }
+.traffic-lights i { display: block; width: 10px; height: 10px; border: 1px solid #0000000a; border-radius: 50%; background: #ff5f57; }
+.traffic-lights i:nth-child(2) { background: #febc2e; }
+.traffic-lights i:nth-child(3) { background: #28c840; }
+.doc-filename { display: flex; flex: 1 1 120px; align-items: center; gap: 8px; min-width: 0; overflow: hidden; color: var(--doc-text); font-size: 13px; font-weight: 600; white-space: nowrap; }
+.doc-filename .icon { width: 17px; height: 17px; color: var(--doc-secondary); }
+.doc-filename span { overflow: hidden; text-overflow: ellipsis; }
+.mode-tabs { display: inline-flex; flex: none; padding: 3px; border: 1px solid transparent; border-radius: 8px; background: color-mix(in srgb, var(--doc-text) 6%, transparent); }
+.mode-tabs button { position: relative; min-width: 64px; min-height: 29px; padding: 4px 13px; border-radius: 5px; color: var(--doc-secondary); font-size: 12px; font-weight: 650; line-height: 1.3; transition: background 150ms var(--ease), color 150ms var(--ease); }
+.mode-tabs button:hover { color: var(--doc-text); }
+.mode-tabs button[aria-selected='true'], .mode-tabs button.is-active { color: var(--doc-text); background: var(--doc-canvas); box-shadow: 0 1px 3px #00000019; }
+.mode-tabs button:focus-visible { outline-width: 2px; outline-offset: 2px; }
+.export-wrap { position: relative; flex: none; }
+.export-toggle { width: 32px; height: 32px; color: var(--doc-secondary); }
+.export-toggle .icon { width: 20px; height: 20px; }
+.export-toggle:hover, .export-toggle[aria-expanded='true'] { color: var(--doc-text); background: color-mix(in srgb, var(--doc-text) 8%, transparent); }
+.export-menu { position: absolute; z-index: 20; top: calc(100% + 9px); right: -3px; width: 190px; padding: 6px; color: var(--doc-text); background: var(--doc-canvas); border: 1px solid var(--doc-line); border-radius: 10px; box-shadow: 0 10px 28px #00000020; }
+.export-menu button { display: block; width: 100%; padding: 10px 12px; border-radius: 5px; font-size: 13px; line-height: 1.4; text-align: left; }
+.export-menu button:hover, .export-menu button:focus-visible { color: var(--doc-text); background: var(--doc-selected); }
+.doc-body { display: flex; flex: 1 1 auto; min-height: 0; }
+.doc-sidebar { flex: 0 0 190px; width: 190px; min-width: 0; padding: 21px 10px; overflow: auto; background: var(--doc-panel); border-right: 1px solid var(--doc-line); }
+.sidebar-caption { margin: 0 12px 10px; color: var(--doc-secondary); font-size: 10px; font-weight: 650; letter-spacing: .015em; }
+.file-row { display: flex; align-items: center; gap: 8px; min-height: 36px; margin-bottom: 3px; padding: 7px 11px; overflow: hidden; border-radius: 6px; font-size: 12px; font-weight: 550; line-height: 1.5; white-space: nowrap; }
+.file-row .icon { width: 17px; height: 17px; }
+.file-row span { overflow: hidden; text-overflow: ellipsis; }
+.file-row.is-selected { background: var(--doc-selected); color: var(--doc-text); font-weight: 650; }
+.outline-nav { margin-top: 30px; }
+.outline-nav button { display: block; width: 100%; min-height: 32px; padding: 7px 12px; border-radius: 5px; color: var(--doc-secondary); font-size: 12px; line-height: 1.45; text-align: left; word-break: keep-all; }
+.outline-nav button:hover, .outline-nav button.is-active { color: var(--doc-action); background: color-mix(in srgb, var(--doc-selected) 75%, transparent); }
+.doc-content-wrap { display: flex; flex: 1 1 auto; flex-direction: column; min-width: 0; min-height: 0; }
+.doc-tools { display: flex; flex: none; align-items: center; gap: 12px; min-height: 39px; padding: 2px 24px; background: var(--doc-canvas); border-bottom: 1px solid var(--doc-line); }
+.tool-button { display: inline-flex; align-items: center; gap: 5px; min-height: 32px; padding: 5px 6px; border-radius: 5px; color: var(--doc-secondary); font-size: 11px; font-weight: 550; line-height: 1.4; }
+.tool-button .icon { width: 15px; height: 15px; }
+.tool-button:hover { color: var(--doc-text); background: var(--doc-panel); }
+.tool-button[aria-pressed='true'], .tool-button[aria-expanded='true'] { color: var(--doc-action); background: var(--doc-selected); }
+.tool-hint { margin-left: auto; color: var(--doc-secondary); font-size: 10px; }
+.find-bar { display: flex; flex: none; align-items: center; gap: 10px; min-height: 45px; padding: 5px 17px; background: var(--doc-panel); border-bottom: 1px solid var(--doc-line); }
+.find-label { color: var(--doc-secondary); font-size: 12px; font-weight: 600; }
+.find-bar input { flex: 1 1 auto; width: 100%; min-width: 0; height: 29px; padding: 4px 9px; color: var(--doc-text); background: var(--doc-canvas); border: 1px solid var(--doc-line); border-radius: 5px; font-size: 12px; }
+.find-bar input:focus { border-color: var(--doc-action); outline: 1px solid var(--doc-action); }
+.find-count { flex: none; min-width: 24px; color: var(--doc-secondary); font-size: 11px; white-space: nowrap; }
+.find-close { flex: none; width: 29px; height: 29px; }
+.find-close .icon { width: 17px; height: 17px; }
+.doc-panel { position: relative; flex: 1 1 auto; min-width: 0; min-height: 0; overflow: auto; overscroll-behavior: auto; scrollbar-width: thin; scrollbar-color: var(--doc-line) transparent; }
+.doc-prose { min-height: 100%; padding: 33px 42px 44px; color: var(--doc-text); font-size: 17px; line-height: 1.7; letter-spacing: -.01em; word-break: keep-all; overflow-wrap: break-word; }
+.doc-prose:focus { outline: none; }
+.doc-prose[contenteditable='true'] { cursor: text; caret-color: var(--doc-action); }
+.doc-prose[contenteditable='true']:focus { box-shadow: inset 0 0 0 2px var(--doc-action); }
+.doc-prose > * { transition: opacity 150ms var(--ease), background 150ms var(--ease); }
+.doc-prose > :first-child { margin-top: 0; }
+.doc-prose h1 { margin: 0 0 9px; color: var(--doc-text); font-size: 36px; font-weight: 800; line-height: 1.3; letter-spacing: -.03em; }
+.doc-prose h2 { margin: 23px 0 9px; color: var(--doc-text); font-size: 23px; font-weight: 750; line-height: 1.4; letter-spacing: -.025em; }
+.doc-prose h3 { margin: 20px 0 7px; color: var(--doc-text); font-size: 19px; font-weight: 700; line-height: 1.4; }
+.doc-prose p { margin: 8px 0 13px; }
+.doc-prose a { color: var(--doc-action); text-decoration: underline; text-underline-offset: 3px; }
+.doc-prose strong { font-weight: 750; }
+.doc-prose ul, .doc-prose ol { margin: 9px 0 17px; padding-left: 23px; }
+.doc-prose li { margin: 3px 0; }
+.doc-prose ul:has(input[type='checkbox']), .doc-prose ul.task-list { padding-left: 0; list-style: none; }
+.doc-prose li:has(input[type='checkbox']) { display: flex; align-items: baseline; gap: 9px; }
+.task-label { display: flex; align-items: baseline; gap: 9px; min-height: 28px; cursor: pointer; }
+.doc-prose li input[type='checkbox'] { position: relative; top: 2px; flex: none; width: 15px; height: 15px; margin: 0; accent-color: var(--doc-action); }
+.doc-prose blockquote { margin: 21px 0; padding: 2px 0 2px 17px; border-left: 4px solid var(--doc-structure); color: var(--doc-text); }
+.doc-prose blockquote p { margin: 3px 0; }
+.doc-prose pre { max-width: 100%; margin: 18px 0; padding: 15px 18px; overflow: auto; border: 1px solid var(--doc-line); border-radius: 8px; background: var(--doc-code); color: var(--doc-code-text); font-size: 12px; line-height: 1.85; letter-spacing: 0; word-break: normal; }
+.doc-prose code { font-family: var(--mono); font-size: .84em; }
+.doc-prose :not(pre) > code { padding: .12em .28em; border-radius: 3px; color: var(--doc-action); background: var(--doc-code); }
+.doc-prose pre code { padding: 0; color: inherit; background: none; font-size: inherit; }
+.doc-prose .code-keyword, .doc-prose .code-string, .doc-prose .code-number { color: var(--doc-action); }
+.doc-prose .code-comment { color: var(--doc-secondary); }
+.doc-prose table { width: 100%; margin: 18px 0 4px; border-spacing: 0; border-collapse: separate; overflow: hidden; border: 1px solid var(--doc-line); border-radius: 8px; font-size: 13px; line-height: 1.55; }
+.doc-prose th, .doc-prose td { padding: 8px 12px; border-bottom: 1px solid var(--doc-line); text-align: left; }
+.doc-prose th { background: var(--doc-panel); font-weight: 700; }
+.doc-prose th + th, .doc-prose td + td { border-left: 1px solid var(--doc-line); }
+.doc-prose tr:last-child td { border-bottom: 0; }
+.doc-prose mark, .doc-prose .search-match { padding-inline: 1px; border-radius: 2px; background: var(--doc-mark); color: var(--doc-text); }
+.doc-window.is-focused .doc-prose > :not(.focus-block), .doc-prose.is-focused > :not(.focus-block) { opacity: .62; }
+.doc-window.is-focused .doc-prose > .focus-block, .doc-prose.is-focused > .focus-block { opacity: 1; background: color-mix(in srgb, var(--doc-selected) 55%, transparent); box-shadow: -10px 0 0 color-mix(in srgb, var(--doc-selected) 55%, transparent); }
+.source-editor { display: block; width: 100%; min-height: 100%; margin: 0; padding: 31px 35px; resize: none; border: 0; outline: 0; background: var(--doc-canvas); color: var(--doc-text); font-family: var(--mono); font-size: 13px; line-height: 1.9; tab-size: 2; white-space: pre-wrap; overflow-wrap: break-word; caret-color: var(--doc-action); }
+.source-editor:focus { box-shadow: inset 0 0 0 2px var(--doc-action); }
+.doc-status { display: flex; flex: none; align-items: center; justify-content: space-between; gap: 14px; height: 29px; padding: 0 17px; background: var(--doc-toolbar); border-top: 1px solid var(--doc-line); color: var(--doc-secondary); font-size: 10px; line-height: 1.4; }
+.status-mode { display: inline-flex; align-items: center; gap: 5px; }
+.status-mode .icon { width: 12px; height: 12px; }
+.status-right { display: inline-flex; align-items: center; gap: 17px; white-space: nowrap; }
+.doc-compact { height: 500px; }
+.doc-compact .doc-toolbar { height: 46px; gap: 12px; padding-inline: 13px; }
+.doc-compact .traffic-lights { gap: 5px; }
+.doc-compact .traffic-lights i { width: 8px; height: 8px; }
+.doc-compact .doc-filename { gap: 6px; font-size: 12px; }
+.doc-compact .doc-filename .icon { width: 14px; height: 14px; }
+.doc-compact .mode-tabs button { min-width: 48px; min-height: 32px; padding-inline: 8px; font-size: 12px; }
+.doc-compact .export-toggle { width: 28px; height: 30px; }
+.doc-compact .doc-sidebar { flex-basis: 145px; width: 145px; padding: 17px 8px; }
+.doc-compact .sidebar-caption { margin-left: 9px; font-size: 9px; }
+.doc-compact .file-row { min-height: 32px; gap: 6px; padding-inline: 8px; font-size: 12px; }
+.doc-compact .file-row .icon { width: 14px; height: 14px; }
+.doc-compact .outline-nav { margin-top: 25px; }
+.doc-compact .outline-nav button { padding-inline: 9px; font-size: 12px; }
+.doc-compact .doc-prose { padding: 28px 30px 35px; font-size: 15px; line-height: 1.7; }
+.doc-compact .doc-prose h1 { font-size: 29px; }
+.doc-compact .doc-prose h2 { margin-top: 20px; font-size: 21px; }
+.doc-compact .doc-prose h3 { font-size: 18px; }
+.doc-compact .doc-prose table { font-size: 12px; }
+.doc-compact .doc-prose pre { font-size: 11px; }
+.doc-compact .source-editor { padding: 24px; font-size: 12px; }
+.doc-compact .doc-status { height: 27px; padding-inline: 12px; font-size: 9px; }
+.doc-compact .status-local { display: none; }
+.doc-mini { height: 330px; pointer-events: none; border-radius: 12px; box-shadow: 0 14px 35px #171a1d25, 0 3px 9px #171a1d20; }
+.doc-mini .doc-toolbar { height: 32px; gap: 12px; padding-inline: 12px; }
+.doc-mini .traffic-lights { gap: 4px; }
+.doc-mini .traffic-lights i { width: 7px; height: 7px; }
+.doc-mini .doc-filename { font-size: 9px; }
+.doc-mini .doc-filename .icon { width: 12px; height: 12px; }
+.mini-view-label { padding: 2px 8px; border-radius: 4px; background: #ffffff14; color: var(--doc-secondary); font-size: 9px; }
+.doc-mini .doc-sidebar { flex-basis: 105px; width: 105px; padding: 13px 6px; }
+.doc-mini .sidebar-caption { margin-left: 7px; font-size: 8px; }
+.doc-mini .file-row { min-height: 25px; gap: 5px; padding: 4px 6px; font-size: 8px; }
+.doc-mini .file-row .icon { width: 12px; height: 12px; }
+.doc-mini .doc-prose { padding: 18px 20px; font-size: 11px; line-height: 1.6; }
+.doc-mini .doc-prose h1 { margin-bottom: 6px; font-size: 22px; }
+.doc-mini .doc-prose h2 { margin-top: 13px; font-size: 15px; }
+.doc-mini .doc-prose p { margin: 5px 0 8px; }
+.doc-mini .doc-prose ul { margin-block: 6px 11px; }
+.doc-mini .doc-prose li { margin: 2px 0; }
+.doc-mini .doc-prose li input[type='checkbox'] { top: 1px; width: 10px; height: 10px; }
+.doc-mini .doc-prose blockquote { margin: 12px 0; padding-left: 9px; border-left-width: 3px; }
+.doc-mini .doc-prose pre { margin: 10px 0; padding: 9px 10px; border-radius: 5px; font-size: 8px; }
+.doc-mini .doc-prose table { margin-top: 10px; border-radius: 5px; font-size: 8px; }
+.doc-mini .doc-prose th, .doc-mini .doc-prose td { padding: 4px 7px; }
+
+.explore-grid { display: grid; grid-template-columns: .8fr 1.35fr; align-items: start; gap: 58px; }
+.explore-copy { min-width: 0; padding-top: 2px; }
+.explore-copy h2 { font-size: 50px; }
+.section-description { margin-top: 23px; color: var(--secondary); font-size: 17px; line-height: 1.8; }
+.workflow-steps { display: grid; gap: 15px; margin-top: 34px; }
+.workflow-step { display: block; width: 100%; padding: 4px 0 5px 18px; border-left: 3px solid var(--line); color: var(--secondary); text-align: left; transition: border-color 160ms var(--ease), color 160ms var(--ease); }
+.step-title { display: flex; align-items: center; gap: 12px; margin-bottom: 3px; color: var(--ink); font-size: 20px; font-weight: 750; letter-spacing: -.02em; line-height: 1.5; }
+.step-title b { font-size: 18px; font-weight: 700; }
+.step-description { display: block; font-size: 14px; line-height: 1.65; word-break: keep-all; }
+.workflow-step:hover { color: var(--ink); border-color: #f4c68a; }
+.workflow-step.is-active, .workflow-step[aria-pressed='true'] { border-color: var(--orange); color: var(--ink); }
+.workflow-step.is-active .step-title, .workflow-step[aria-pressed='true'] .step-title { font-weight: 800; }
+.workflow-preview { min-width: 0; }
+.demo-actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 13px 2px 0; }
+.demo-actions p { color: var(--secondary); font-size: 12px; }
+.demo-actions .text-link { flex: none; min-height: 32px; font-size: 12px; }
+.demo-feedback { min-height: 20px; margin-top: 2px; color: var(--action); font-size: 12px; line-height: 1.6; }
+.features { margin-top: 103px; }
+.features > h2 { font-size: 46px; }
+.feature-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 56px; margin-top: 47px; }
+.feature-item > .icon { width: 32px; height: 32px; margin-bottom: 18px; color: var(--orange); }
+.feature-item h3 { margin-bottom: 11px; font-size: 23px; }
+.feature-item p { color: var(--secondary); font-size: 16px; line-height: 1.8; }
+.theme-section { background: #fafaf9; }
+.theme-heading { display: grid; grid-template-columns: 1.15fr 1fr auto; align-items: center; gap: 30px; margin-bottom: 51px; }
+.theme-heading h2 { font-size: 48px; }
+.theme-intro { padding-left: 25px; border-left: 1px solid var(--line); }
+.theme-intro p { font-size: 16px; line-height: 1.8; }
+.proposal-note { display: block; margin-top: 10px; color: var(--secondary); font-size: 12px; line-height: 1.6; }
+.appearance-control { display: inline-flex; flex-wrap: nowrap; align-items: stretch; padding: 4px; border: 1px solid #e0e2e5; border-radius: 999px; background: #f0f1f2; }
+.appearance-control button { display: inline-flex; align-items: center; justify-content: center; min-height: 38px; padding: 7px 14px; border-radius: 999px; color: var(--secondary); font-size: 13px; font-weight: 650; line-height: 1.4; transition: background 180ms var(--ease), color 180ms var(--ease); }
+.appearance-control button:hover { color: var(--ink); }
+.appearance-control button[aria-pressed='true'], .appearance-control button.is-active { background: var(--amber); color: var(--ink); }
+.appearance-control button:focus-visible { outline-offset: 1px; outline-width: 2px; }
+.theme-stage { position: relative; padding-bottom: 24px; }
+.theme-stage > .doc-window { width: 92%; height: 560px; }
+.theme-inset { position: absolute; right: -8px; bottom: 0; width: 43%; max-width: 510px; }
+.existing-styles { display: flex; align-items: center; justify-content: flex-start; gap: 35px; margin-top: 59px; }
+.existing-styles h3 { padding-right: 31px; border-right: 3px solid var(--orange); font-size: 21px; line-height: 1.5; }
+.existing-styles p { display: flex; flex-wrap: wrap; align-items: center; column-gap: 17px; color: #34393f; font-size: 17px; line-height: 1.8; }
+.existing-styles p span { color: var(--muted); }
+.how-grid { display: grid; grid-template-columns: .8fr 1.35fr; gap: 58px; }
+.how-grid > h2 { padding-top: 5px; }
+.getting-started { margin: 0; padding: 0; list-style: none; }
+.getting-started li { display: grid; grid-template-columns: 50px 1fr; gap: 19px; padding: 22px 0 24px; border-top: 1px solid var(--line); }
+.getting-started li:first-child { padding-top: 0; border-top: 0; }
+.getting-started li > span { color: var(--orange); font-size: 35px; font-weight: 750; line-height: 1.3; letter-spacing: -.035em; }
+.getting-started h3 { margin-bottom: 6px; font-size: 22px; }
+.getting-started p { color: var(--secondary); font-size: 16px; line-height: 1.8; }
+.help-grid { display: grid; grid-template-columns: .8fr 1.35fr; align-items: start; gap: 58px; margin-top: 108px; }
+.help-heading h2 { font-size: 44px; }
+.help-heading > p { max-width: 310px; margin-top: 20px; color: var(--secondary); font-size: 15px; line-height: 1.85; }
+.contact-link { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; margin-top: 14px; color: var(--ink); font-size: 18px; font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 5px; }
+.contact-link .icon { width: 19px; height: 19px; }
+.contact-link:hover { color: var(--action); }
+.faq { min-width: 0; border-top: 1px solid var(--line); }
+.faq details { padding: 0; border-bottom: 1px solid var(--line); }
+.faq summary { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 70px; padding: 19px 0; cursor: pointer; font-size: 17px; font-weight: 650; letter-spacing: -.015em; line-height: 1.6; list-style: none; word-break: keep-all; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary .icon { flex: none; width: 19px; height: 19px; color: var(--secondary); transition: transform 200ms var(--ease); }
+.faq summary:hover { color: var(--action); }
+.faq details[open] summary .icon { transform: rotate(180deg); }
+.faq-answer { padding: 0 28px 23px 0; color: var(--secondary); font-size: 15px; line-height: 1.9; }
+.privacy-band { padding-block: 49px; background: var(--tint); }
+.privacy-band-inner { display: grid; grid-template-columns: .95fr 1.05fr; align-items: center; gap: 58px; }
+.privacy-band h2 { font-size: 34px; line-height: 1.4; }
+.privacy-band-inner > div { padding-left: 31px; border-left: 1px solid #d7be985c; }
+.privacy-band p { margin-bottom: 4px; color: #48423a; font-size: 16px; line-height: 1.8; }
+.privacy-band .text-link { color: #673b09; font-size: 16px; }
+.closing { padding-block: 85px 79px; background: var(--amber); text-align: center; }
+.closing h2 { margin-bottom: 25px; font-size: 50px; line-height: 1.25; }
+.closing .button { min-height: 56px; padding-inline: 33px; }
+.closing p { margin-top: 15px; color: #503712; font-size: 14px; }
+.site-footer { display: flex; align-items: center; justify-content: space-between; gap: 30px; min-height: 105px; padding-block: 27px; }
+.footer-brand { gap: 9px; font-size: 25px; }
+.brand-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--orange); }
+.footer-links { display: flex; flex-wrap: wrap; align-items: center; gap: 27px; margin-inline-start: auto; color: var(--secondary); font-size: 13px; }
+.footer-links a { display: inline-flex; align-items: center; min-height: 44px; }
+.footer-links a:hover { color: var(--action); }
+.footer-links .language-switch { font-size: 13px; }
+.copyright { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.toast { position: fixed; z-index: 100; right: 24px; bottom: 24px; max-width: min(400px, calc(100vw - 48px)); padding: 13px 19px; border: 1px solid #ffffff20; border-radius: 10px; background: #171a1df2; box-shadow: 0 8px 24px #171a1d20; color: #ffffff; font-size: 14px; line-height: 1.65; opacity: 0; transform: translateY(12px); transition: opacity 180ms var(--ease), transform 180ms var(--ease); pointer-events: none; }
+.toast.is-visible { opacity: 1; transform: translateY(0); }
+
+.privacy-main { padding-bottom: 103px; }
+.policy-hero { padding-top: 60px; }
+.policy-hero h1 { font-size: 80px; font-weight: 850; line-height: 1.14; letter-spacing: -.035em; }
+.policy-hero .underline { display: inline-block; }
+.policy-subtitle { margin-top: 28px; font-size: 22px; line-height: 1.65; letter-spacing: -.02em; }
+.policy-date { margin-top: 8px; color: var(--secondary); font-size: 14px; }
+.privacy-summary { display: grid; grid-template-columns: 1.1fr 1.2fr .8fr; gap: 26px; margin-top: 37px; padding: 25px 31px; border-radius: 16px; background: var(--tint); }
+.privacy-summary > div { display: flex; align-items: center; justify-content: center; gap: 12px; min-width: 0; padding-right: 17px; border-right: 1px solid #d9bb954d; font-size: 17px; font-weight: 650; line-height: 1.6; word-break: keep-all; }
+.privacy-summary > div:last-child { padding-right: 0; border-right: 0; }
+.privacy-summary .icon { flex: none; width: 25px; height: 25px; color: #b85f00; }
+.policy-layout { display: grid; grid-template-columns: 225px minmax(0, 1fr); align-items: start; gap: 56px; margin-top: 56px; }
+.policy-toc { position: sticky; top: 111px; padding: 3px 26px 8px 0; border-right: 1px solid var(--line); }
+.policy-toc h2 { margin: 0 0 17px 12px; color: var(--secondary); font-size: 13px; font-weight: 600; line-height: 1.5; letter-spacing: 0; }
+.policy-toc nav { display: grid; gap: 7px; }
+.policy-toc a { display: block; min-height: 36px; padding: 6px 5px 6px 12px; border-left: 3px solid transparent; color: var(--secondary); font-size: 14px; font-weight: 500; line-height: 1.7; word-break: keep-all; transition: color 160ms var(--ease), border-color 160ms var(--ease); }
+.policy-toc a:hover { color: var(--ink); }
+.policy-toc a.is-active, .policy-toc a[aria-current='true'], .policy-toc a[aria-current='location'] { border-left-color: var(--orange); color: var(--ink); font-weight: 700; }
+.policy-article { min-width: 0; max-width: 850px; }
+.policy-section { padding-block: 33px 36px; border-top: 1px solid var(--line); }
+.policy-section:first-child { padding-top: 0; border-top: 0; }
+.policy-section h2 { display: flex; align-items: baseline; gap: 13px; margin-bottom: 17px; font-size: 28px; font-weight: 780; line-height: 1.5; letter-spacing: -.025em; }
+.policy-number { color: var(--action); font-size: 23px; font-weight: 700; line-height: inherit; letter-spacing: -.025em; }
+.policy-section p { margin-top: 11px; color: #434a52; font-size: 17px; line-height: 1.9; }
+.policy-section p:first-of-type { margin-top: 0; }
+.policy-section .text-link { margin-top: 10px; font-size: 15px; }
+.policy-section .contact-link { margin-top: 10px; }
+.back-home { margin-top: 16px; color: var(--action); font-size: 16px; }
+html[lang='en'] .policy-hero h1 { font-size: 72px; letter-spacing: -.04em; }
+html[lang='en'] .privacy-summary { grid-template-columns: 1fr 1.2fr .8fr; }
+html[lang='en'] .privacy-summary > div { font-size: 15px; }
+html[lang='en'] .policy-toc a { font-size: 13px; }
+
+@media (min-width: 1440px) {
+  .hero { padding-top: 65px; }
+  .hero-product { margin-top: 59px; }
+}
+@media (max-width: 1100px) {
+  .shell { width: calc(100% - 72px); }
+  .nav { gap: 31px; }
+  .nav-links { gap: 25px; }
+  .nav-actions { gap: 18px; }
+  h2 { font-size: 46px; }
+  .explore-grid, .how-grid, .help-grid { gap: 38px; grid-template-columns: .8fr 1.25fr; }
+  .explore-copy h2 { font-size: 43px; }
+  .theme-heading { grid-template-columns: 1.05fr 1fr; gap: 24px 32px; align-items: start; }
+  .theme-heading h2 { font-size: 44px; }
+  .theme-intro { padding-top: 5px; }
+  .appearance-control { grid-column: 2; justify-self: start; margin-top: -5px; }
+  .theme-heading h2 { grid-row: 1 / span 2; }
+  .doc-compact .doc-sidebar { flex-basis: 122px; width: 122px; padding-inline: 5px; }
+  .doc-compact .doc-toolbar { gap: 7px; padding-inline: 10px; }
+  .doc-compact .traffic-lights { display: none; }
+  .doc-compact .doc-prose { padding-inline: 24px; }
+  .doc-compact .doc-prose h1 { font-size: 26px; }
+  .feature-row { gap: 35px; }
+  .existing-styles { gap: 25px; }
+  .existing-styles h3 { padding-right: 25px; font-size: 19px; }
+  .existing-styles p { column-gap: 12px; font-size: 16px; }
+  .privacy-band h2 { font-size: 31px; }
+  .privacy-band-inner { gap: 35px; }
+  .privacy-summary { gap: 18px; padding-inline: 23px; }
+  .privacy-summary > div { gap: 9px; padding-right: 11px; font-size: 15px; }
+  .privacy-summary .icon { width: 22px; height: 22px; }
+  .policy-layout { grid-template-columns: 205px minmax(0, 1fr); gap: 38px; }
+}
+@media (max-width: 960px) {
+  .shell { width: calc(100% - 56px); }
+  .section-pad { padding-block: 96px; }
+  .hero { padding-top: 49px; }
+  .hero-copy h1, html[lang='en'] .hero-copy h1 { font-size: 65px; }
+  .hero-description { font-size: 18px; }
+  .doc-toolbar { gap: 13px; }
+  .doc-sidebar { flex-basis: 160px; width: 160px; }
+  .doc-prose { padding-inline: 32px; }
+  .doc-prose h1 { font-size: 32px; }
+  .explore-grid, .how-grid, .help-grid { grid-template-columns: 1fr; gap: 36px; }
+  .explore-copy h2 { font-size: 47px; }
+  .explore-copy { max-width: 650px; }
+  .workflow-steps { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin-top: 30px; }
+  .workflow-step { padding-left: 13px; }
+  .step-title { font-size: 19px; gap: 8px; }
+  .step-title b { font-size: 16px; }
+  .step-description { font-size: 13px; }
+  .workflow-preview { width: 100%; }
+  .doc-compact { height: 485px; }
+  .doc-compact .doc-sidebar { flex-basis: 160px; width: 160px; padding: 17px 10px; }
+  .doc-compact .doc-toolbar { height: 47px; gap: 15px; padding-inline: 15px; }
+  .doc-compact .traffic-lights { display: flex; }
+  .doc-compact .doc-filename { font-size: 12px; }
+  .doc-compact .mode-tabs button { min-width: 60px; min-height: 28px; padding-inline: 12px; font-size: 11px; }
+  .doc-compact .file-row { font-size: 11px; }
+  .doc-compact .outline-nav button { font-size: 11px; }
+  .doc-compact .doc-prose { padding: 28px 34px; font-size: 16px; }
+  .doc-compact .doc-prose h1 { font-size: 30px; }
+  .features { margin-top: 74px; }
+  .features > h2 { font-size: 40px; }
+  .feature-row { gap: 28px; margin-top: 35px; }
+  .feature-item h3 { font-size: 21px; }
+  .feature-item p { font-size: 15px; }
+  .theme-heading { grid-template-columns: 1fr 1fr; }
+  .theme-heading h2 { font-size: 43px; }
+  .theme-intro p { font-size: 15px; }
+  .theme-stage { padding-bottom: 0; }
+  .theme-stage > .doc-window { width: 100%; height: 525px; }
+  .theme-inset { display: none; }
+  .existing-styles { flex-direction: column; align-items: flex-start; gap: 12px; margin-top: 36px; }
+  .existing-styles h3 { padding-right: 0; border-right: 0; }
+  .how-grid { grid-template-columns: .85fr 1.15fr; gap: 38px; }
+  .how-grid h2 { font-size: 43px; }
+  .getting-started li { grid-template-columns: 37px 1fr; gap: 12px; }
+  .getting-started li > span { font-size: 28px; }
+  .getting-started h3 { font-size: 19px; }
+  .getting-started p { font-size: 15px; }
+  .help-grid { grid-template-columns: .85fr 1.15fr; gap: 38px; margin-top: 85px; }
+  .help-heading h2 { font-size: 39px; }
+  .faq summary { font-size: 16px; }
+  .faq-answer { font-size: 14px; }
+  .privacy-band-inner { grid-template-columns: 1fr; gap: 19px; }
+  .privacy-band-inner > div { padding: 0; border-left: 0; }
+  .privacy-band h2 { font-size: 33px; }
+  .closing h2 { font-size: 43px; }
+  .site-footer { gap: 24px; }
+  .footer-links { gap: 21px; }
+  .policy-hero { padding-top: 49px; }
+  .policy-hero h1 { font-size: 69px; }
+  html[lang='en'] .policy-hero h1 { font-size: 65px; }
+  .policy-subtitle { font-size: 20px; }
+  .privacy-summary { grid-template-columns: 1fr; gap: 12px; padding: 22px 25px; }
+  html[lang='en'] .privacy-summary { grid-template-columns: 1fr; }
+  .privacy-summary > div { justify-content: flex-start; padding: 0; border: 0; font-size: 16px; }
+  html[lang='en'] .privacy-summary > div { font-size: 16px; }
+  .policy-layout { grid-template-columns: 185px minmax(0, 1fr); gap: 30px; margin-top: 44px; }
+  .policy-toc { padding-right: 17px; }
+  .policy-toc a { padding-left: 9px; font-size: 13px; }
+  .policy-section h2 { font-size: 25px; }
+  .policy-section p { font-size: 16px; }
+}
+@media (max-width: 760px) {
+  html { scroll-padding-top: 0; }
+  .shell { width: calc(100% - 40px); }
+  .section-pad { padding-block: 76px; }
+  .nav { min-height: 72px; gap: 20px; }
+  .brand { gap: 8px; font-size: 27px; }
+  .brand img { width: 29px; height: 29px; }
+  .nav-actions { gap: 14px; }
+  .nav-actions .button-small { min-height: 42px; padding: 8px 17px; font-size: 13px; }
+  .language-switch { font-size: 13px; }
+  .menu-toggle { display: inline-flex; width: 40px; height: 44px; margin-right: -8px; }
+  .nav-links { display: none; position: absolute; top: calc(100% - 1px); right: 20px; left: 20px; align-items: stretch; gap: 4px; padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: #ffffff; box-shadow: 0 16px 35px #171a1d13; }
+  .site-header.menu-open .nav-links { display: flex; flex-direction: column; }
+  .nav-links a { display: flex; min-height: 46px; padding: 9px 14px; border-radius: 6px; font-size: 15px; }
+  .nav-links a:hover { background: var(--tint); }
+  .hero { padding-top: 40px; }
+  .hero-copy h1, html[lang='en'] .hero-copy h1 { font-size: 54px; }
+  .hero-description { margin-top: 24px; font-size: 17px; line-height: 1.75; }
+  .hero-description br { display: none; }
+  .hero-description [data-ko] { display: block; }
+  .hero-actions { gap: 23px; margin-top: 26px; }
+  .hero-actions .button { padding-inline: 22px; font-size: 15px; }
+  .hero-actions .text-action { font-size: 15px; }
+  .requirements { margin-top: 11px; font-size: 12px; }
+  .hero-product { margin-top: 39px; }
+  .preview-caption { margin-top: 15px; font-size: 11px; }
+  .doc-window { height: 520px; border-radius: 12px; box-shadow: 0 18px 36px #171a1d0d, 0 3px 9px #171a1d08; }
+  .doc-toolbar { gap: 9px; height: 48px; padding-inline: 12px; }
+  .doc-filename { gap: 6px; font-size: 11px; }
+  .doc-filename .icon { width: 15px; height: 15px; }
+  .traffic-lights { gap: 5px; }
+  .traffic-lights i { width: 8px; height: 8px; }
+  .mode-tabs { padding: 2px; border-radius: 6px; }
+  .mode-tabs button { min-width: 48px; min-height: 30px; padding-inline: 9px; font-size: 11px; }
+  .export-toggle { width: 29px; height: 34px; }
+  .doc-sidebar { flex-basis: 136px; width: 136px; padding: 16px 7px; }
+  .sidebar-caption { margin-left: 8px; font-size: 9px; }
+  .file-row { gap: 6px; padding-inline: 8px; font-size: 10px; }
+  .file-row .icon { width: 14px; height: 14px; }
+  .outline-nav button { padding-inline: 9px; font-size: 10px; }
+  .doc-prose { padding: 26px 25px 32px; font-size: 15px; }
+  .doc-prose h1 { font-size: 28px; }
+  .doc-prose h2 { font-size: 21px; }
+  .doc-prose table { font-size: 12px; }
+  .doc-prose pre { padding: 12px 14px; font-size: 11px; }
+  .doc-tools { gap: 10px; padding-inline: 12px; }
+  .tool-hint { font-size: 9px; }
+  .doc-status { padding-inline: 12px; font-size: 9px; }
+  .status-right { gap: 11px; }
+  .status-local { display: none; }
+  .source-editor { padding: 24px; font-size: 12px; }
+  .explore-copy h2 { font-size: 43px; }
+  .section-description { margin-top: 19px; font-size: 16px; }
+  .workflow-steps { gap: 14px; margin-top: 27px; }
+  .step-title { gap: 7px; font-size: 18px; }
+  .step-title b { font-size: 14px; }
+  .step-description { font-size: 12px; }
+  .doc-compact { height: 470px; }
+  .doc-compact .doc-sidebar { flex-basis: 136px; width: 136px; padding: 16px 7px; }
+  .doc-compact .doc-toolbar { height: 48px; gap: 9px; padding-inline: 12px; }
+  .doc-compact .doc-filename { font-size: 11px; }
+  .doc-compact .mode-tabs button { min-width: 48px; min-height: 30px; padding-inline: 9px; font-size: 11px; }
+  .doc-compact .file-row { font-size: 10px; }
+  .doc-compact .outline-nav button { font-size: 10px; }
+  .doc-compact .doc-prose { padding: 26px 25px; font-size: 15px; }
+  .doc-compact .doc-prose h1 { font-size: 28px; }
+  .features { margin-top: 64px; }
+  .features > h2 { font-size: 37px; }
+  .feature-row { grid-template-columns: 1fr; gap: 28px; margin-top: 32px; }
+  .feature-item { display: grid; grid-template-columns: 33px minmax(0, 1fr); column-gap: 19px; align-items: start; }
+  .feature-item > .icon { grid-row: 1 / span 2; width: 29px; height: 29px; margin-top: 1px; margin-bottom: 0; }
+  .feature-item h3 { margin-bottom: 6px; font-size: 22px; }
+  .feature-item p { grid-column: 2; max-width: 500px; font-size: 15px; }
+  .theme-heading { grid-template-columns: 1fr; gap: 25px; margin-bottom: 30px; }
+  .theme-heading h2 { grid-row: auto; font-size: 43px; }
+  .theme-intro { padding: 0; border: 0; }
+  .theme-intro p { font-size: 16px; }
+  .proposal-note { margin-top: 9px; font-size: 12px; }
+  .appearance-control { grid-column: auto; margin-top: 0; }
+  .appearance-control button { min-height: 40px; min-width: 74px; padding-inline: 15px; }
+  .theme-stage > .doc-window { height: 480px; }
+  .existing-styles { margin-top: 30px; gap: 9px; }
+  .existing-styles h3 { font-size: 20px; }
+  .existing-styles p { column-gap: 10px; font-size: 14px; }
+  .how-grid, .help-grid { grid-template-columns: 1fr; gap: 35px; }
+  .how-grid h2 { font-size: 43px; }
+  .getting-started li { grid-template-columns: 42px 1fr; gap: 14px; padding-block: 21px; }
+  .getting-started li > span { font-size: 31px; }
+  .getting-started h3 { font-size: 20px; }
+  .getting-started p { font-size: 15px; }
+  .help-grid { gap: 27px; margin-top: 68px; }
+  .help-heading h2 { font-size: 38px; }
+  .help-heading > p { max-width: 420px; margin-top: 16px; font-size: 15px; }
+  .contact-link { margin-top: 9px; font-size: 17px; }
+  .faq summary { min-height: 66px; padding-block: 17px; font-size: 16px; }
+  .faq-answer { padding-bottom: 20px; font-size: 15px; }
+  .privacy-band { padding-block: 37px; }
+  .privacy-band-inner { gap: 15px; }
+  .privacy-band h2 { font-size: 30px; }
+  .privacy-band p, .privacy-band .text-link { font-size: 15px; }
+  .closing { padding-block: 65px 60px; }
+  .closing h2 { margin-bottom: 23px; font-size: 39px; }
+  .closing .button { min-height: 54px; padding-inline: 25px; font-size: 16px; }
+  .closing p { margin-top: 14px; font-size: 13px; }
+  .site-footer { flex-wrap: wrap; column-gap: 25px; row-gap: 8px; padding-block: 24px; }
+  .footer-links { gap: 22px; }
+  .copyright { width: 100%; margin-top: 0; }
+  .privacy-main { padding-bottom: 76px; }
+  .policy-hero { padding-top: 40px; }
+  .policy-hero h1, html[lang='en'] .policy-hero h1 { font-size: 58px; }
+  .policy-subtitle { margin-top: 26px; font-size: 18px; }
+  .policy-date { margin-top: 8px; font-size: 13px; }
+  .privacy-summary { margin-top: 30px; gap: 13px; padding: 21px 22px; border-radius: 12px; }
+  .privacy-summary > div, html[lang='en'] .privacy-summary > div { gap: 10px; font-size: 15px; }
+  .privacy-summary .icon { width: 23px; height: 23px; }
+  .policy-layout { grid-template-columns: 1fr; gap: 35px; margin-top: 32px; }
+  .policy-toc { position: static; padding: 0 0 22px; border: 0; border-bottom: 1px solid var(--line); }
+  .policy-toc h2 { margin: 0 0 12px; font-size: 13px; }
+  .policy-toc nav { display: flex; flex-wrap: wrap; gap: 6px 11px; }
+  .policy-toc a { min-height: 36px; padding: 7px 10px; border: 0; border-radius: 6px; background: var(--soft); font-size: 12px; line-height: 1.6; }
+  html[lang='en'] .policy-toc a { font-size: 12px; }
+  .policy-toc a.is-active, .policy-toc a[aria-current='true'], .policy-toc a[aria-current='location'] { background: var(--tint); color: var(--action); }
+  .policy-section { padding-block: 27px 29px; }
+  .policy-section h2 { gap: 11px; margin-bottom: 14px; font-size: 25px; }
+  .policy-number { font-size: 21px; }
+  .policy-section p { font-size: 16px; line-height: 1.9; }
+}
+@media (max-width: 600px) {
+  .mobile-only { display: initial; }
+  .hero-copy h1, html[lang='en'] .hero-copy h1 { font-size: 46px; }
+  .hero-copy h1 { line-height: 1.2; }
+  .hero-description { max-width: 440px; margin-inline: auto; font-size: 16px; }
+  .hero-description [data-ko] + [data-ko] { margin-top: 2px; }
+  .hero-actions { flex-direction: column; gap: 8px; margin-top: 23px; }
+  .hero-actions .button { width: auto; max-width: 100%; min-height: 53px; padding-inline: 26px; font-size: 15px; }
+  .hero-actions .text-action { min-height: 42px; }
+  .requirements { margin-top: 3px; }
+  .hero-product { margin-top: 30px; }
+  .doc-window, .doc-compact, .theme-stage > .doc-window { height: 460px; }
+  .doc-sidebar, .doc-compact .doc-sidebar { display: none; }
+  .doc-toolbar, .doc-compact .doc-toolbar { height: 50px; gap: 9px; padding-inline: 11px; }
+  .traffic-lights, .doc-compact .traffic-lights { display: none; }
+  .doc-filename, .doc-compact .doc-filename { flex: 1 1 75px; gap: 5px; font-size: 10px; }
+  .doc-filename .icon { width: 14px; height: 14px; }
+  .mode-tabs button, .doc-compact .mode-tabs button { min-width: 43px; min-height: 38px; padding-inline: 7px; font-size: 10px; }
+  .export-toggle, .doc-compact .export-toggle { width: 30px; height: 40px; }
+  .export-toggle .icon { width: 19px; height: 19px; }
+  .export-menu { width: 185px; }
+  .export-menu button { min-height: 44px; font-size: 13px; }
+  .doc-tools { gap: 12px; min-height: 43px; padding: 0 12px; }
+  .tool-button { min-height: 40px; gap: 6px; padding: 6px 7px; font-size: 11px; }
+  .tool-button .icon { width: 17px; height: 17px; }
+  .tool-hint { display: none; }
+  .find-bar { min-height: 46px; gap: 8px; padding-inline: 11px; }
+  .find-label { font-size: 11px; }
+  .find-bar input { height: 34px; font-size: 13px; }
+  .find-close { width: 33px; height: 34px; }
+  .find-count { font-size: 10px; }
+  .doc-prose, .doc-compact .doc-prose { padding: 23px 22px 30px; font-size: 14px; line-height: 1.8; }
+  .doc-prose h1, .doc-compact .doc-prose h1 { font-size: 26px; line-height: 1.35; }
+  .doc-prose h2, .doc-compact .doc-prose h2 { margin-top: 20px; font-size: 20px; }
+  .doc-prose h3, .doc-compact .doc-prose h3 { font-size: 17px; }
+  .doc-prose pre { margin-block: 15px; padding: 11px 12px; font-size: 10px; }
+  .doc-prose table, .doc-compact .doc-prose table { margin-top: 15px; font-size: 11px; }
+  .doc-prose th, .doc-prose td { padding: 7px 9px; }
+  .doc-prose blockquote { margin-block: 17px; padding-left: 12px; border-left-width: 3px; }
+  .doc-status, .doc-compact .doc-status { height: 27px; padding-inline: 11px; font-size: 9px; }
+  .source-editor, .doc-compact .source-editor { padding: 21px; font-size: 11px; }
+  .explore-grid { gap: 28px; }
+  .explore-copy h2 { font-size: 38px; }
+  .section-description { font-size: 15px; line-height: 1.85; }
+  .workflow-steps { grid-template-columns: 1fr; gap: 15px; margin-top: 26px; }
+  .workflow-step { padding: 2px 0 3px 15px; border-left-width: 3px; }
+  .step-title { gap: 10px; margin-bottom: 1px; font-size: 20px; }
+  .step-title b { font-size: 17px; }
+  .step-description { font-size: 13px; }
+  .demo-actions { align-items: flex-start; gap: 10px; margin-top: 12px; }
+  .demo-actions p { padding-top: 5px; font-size: 11px; }
+  .demo-actions .text-link { font-size: 11px; }
+  .features { margin-top: 56px; }
+  .features > h2 { font-size: 34px; line-height: 1.3; }
+  .feature-row { gap: 27px; margin-top: 30px; }
+  .feature-item { column-gap: 15px; }
+  .feature-item h3 { font-size: 21px; }
+  .feature-item p { font-size: 14px; line-height: 1.8; }
+  .theme-heading h2 { font-size: 38px; }
+  .theme-intro p { font-size: 15px; }
+  .appearance-control button { min-height: 42px; min-width: 76px; font-size: 13px; }
+  .existing-styles h3 { font-size: 19px; }
+  .existing-styles p { display: block; font-size: 14px; line-height: 2; }
+  .existing-styles p span { margin-inline: 9px; }
+  .how-grid h2 { font-size: 38px; }
+  .getting-started li { grid-template-columns: 37px 1fr; column-gap: 12px; }
+  .getting-started li > span { font-size: 28px; }
+  .getting-started h3 { font-size: 19px; }
+  .getting-started p { font-size: 14px; }
+  .help-heading h2 { font-size: 35px; }
+  .help-heading p { font-size: 14px; }
+  .faq summary { gap: 16px; font-size: 15px; }
+  .faq-answer { padding-right: 16px; font-size: 14px; line-height: 1.9; }
+  .privacy-band h2 { font-size: 29px; line-height: 1.35; }
+  .privacy-band p { font-size: 14px; line-height: 1.85; }
+  .privacy-band .text-link { font-size: 14px; }
+  .closing h2 { font-size: 35px; line-height: 1.35; }
+  .closing .button { min-height: 53px; font-size: 15px; }
+  .site-footer { align-items: center; row-gap: 16px; }
+  .footer-brand { font-size: 25px; }
+  .footer-links { justify-content: flex-start; gap: 19px; width: 100%; margin-inline-start: 0; }
+  .footer-links a, .footer-links .language-switch { min-height: 36px; font-size: 12px; }
+  .copyright { font-size: 11px; }
+  .policy-hero h1, html[lang='en'] .policy-hero h1 { font-size: 48px; }
+  .policy-subtitle { margin-top: 23px; font-size: 17px; }
+  .policy-date { font-size: 12px; }
+  .privacy-summary { padding: 20px; gap: 12px; }
+  .privacy-summary > div, html[lang='en'] .privacy-summary > div { font-size: 14px; }
+  .policy-section h2 { gap: 10px; font-size: 23px; line-height: 1.5; }
+  .policy-number { font-size: 20px; }
+  .policy-section p { font-size: 15px; line-height: 1.9; }
+  .policy-section .contact-link { font-size: 17px; }
+  .toast { right: 16px; bottom: 16px; max-width: calc(100vw - 32px); font-size: 13px; }
+}
+@media (max-width: 420px) {
+  .hero-copy h1, html[lang='en'] .hero-copy h1 { font-size: 44px; }
+  .hero-copy h1 { letter-spacing: -.03em; }
+  .hero-description { font-size: 15px; }
+  .doc-toolbar, .doc-compact .doc-toolbar { gap: 6px; padding-inline: 8px; }
+  .mode-tabs button, .doc-compact .mode-tabs button { min-width: 39px; padding-inline: 6px; }
+  .doc-filename .icon { display: none; }
+  .doc-prose, .doc-compact .doc-prose { padding-inline: 19px; }
+  .doc-prose h1, .doc-compact .doc-prose h1 { font-size: 25px; }
+  .policy-hero h1, html[lang='en'] .policy-hero h1 { font-size: 44px; }
+}
+@media (max-width: 360px) {
+  .shell { width: calc(100% - 32px); }
+  .nav { gap: 10px; min-height: 68px; }
+  .brand { gap: 7px; font-size: 24px; }
+  .brand img { width: 26px; height: 26px; }
+  .nav-actions { gap: 6px; }
+  .nav-actions .language-switch { font-size: 12px; }
+  .nav-actions .button-small { min-height: 40px; padding-inline: 12px; font-size: 12px; }
+  .menu-toggle { width: 36px; height: 44px; }
+  .nav-links { right: 16px; left: 16px; }
+  .hero { padding-top: 32px; }
+  .hero-copy h1, html[lang='en'] .hero-copy h1 { font-size: 37px; }
+  .hero-description { margin-top: 20px; font-size: 14px; line-height: 1.8; }
+  .hero-actions .button { padding-inline: 20px; font-size: 14px; }
+  .hero-actions .text-action { font-size: 14px; }
+  .underline::after { height: 4px; }
+  .doc-window, .doc-compact, .theme-stage > .doc-window { height: 440px; }
+  .doc-filename, .doc-compact .doc-filename { font-size: 9px; }
+  .mode-tabs button, .doc-compact .mode-tabs button { min-width: 35px; padding-inline: 5px; font-size: 9px; }
+  .export-toggle, .doc-compact .export-toggle { width: 27px; }
+  .doc-prose, .doc-compact .doc-prose { padding: 20px 17px 28px; font-size: 13px; }
+  .doc-prose h1, .doc-compact .doc-prose h1 { font-size: 24px; }
+  .doc-prose h2, .doc-compact .doc-prose h2 { font-size: 19px; }
+  .section-pad { padding-block: 66px; }
+  .explore-copy h2, .theme-heading h2, .how-grid h2 { font-size: 34px; }
+  .features > h2, .help-heading h2 { font-size: 31px; }
+  .feature-item { column-gap: 12px; }
+  .feature-item h3 { font-size: 19px; }
+  .theme-intro p { font-size: 14px; }
+  .existing-styles p { font-size: 13px; }
+  .existing-styles p span { margin-inline: 7px; }
+  .getting-started h3 { font-size: 18px; }
+  .privacy-band h2 { font-size: 27px; }
+  .closing h2 { font-size: 31px; }
+  .policy-hero h1, html[lang='en'] .policy-hero h1 { font-size: 38px; }
+  .policy-subtitle { font-size: 16px; }
+  .privacy-summary { padding: 18px 16px; }
+  .privacy-summary > div, html[lang='en'] .privacy-summary > div { font-size: 13px; }
+  .policy-section h2 { gap: 9px; font-size: 21px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+  .button:hover, .text-action:hover .icon { transform: none; }
+}
+@media print {
+  .site-header, .site-footer, .policy-toc, .toast { display: none; }
+  body { color: #171a1d; background: white; }
+  .shell { width: 100%; }
+  .policy-hero { padding-top: 0; }
+  .policy-hero h1, html[lang='en'] .policy-hero h1 { font-size: 42px; }
+  .policy-layout { display: block; margin-top: 30px; }
+  .policy-section { break-inside: avoid; }
+  .policy-section p { font-size: 12px; }
+  .privacy-summary { padding: 16px; }
+}
+
+.languages-section {
+  padding-block: clamp(2rem, 5vw, 4.5rem);
+  border-block-end: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline;
+  gap: 24px;
+}
+.languages-section h2 { font-size: clamp(1.65rem, 3vw, 2.4rem); }
+.languages-section p { max-width: 38ch; color: var(--secondary); }
+.copyright a { text-decoration: underline; }
+@media (max-width: 760px) {
+  .languages-section { grid-template-columns: 1fr; gap: 8px; }
+}
+</style><noscript><style>[data-editor], .language-switch, .menu-toggle, .appearance-control, .workflow-steps, .demo-actions { display:none !important; }</style></noscript></head><body data-page="home"><svg xmlns="http://www.w3.org/2000/svg" class="symbol-sprite" aria-hidden="true"><defs><symbol id="i-alt-arrow-down-linear" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 9L12 15L5 9"/></symbol><symbol id="i-alt-arrow-up-linear" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 15L12 9L5 15"/></symbol><symbol id="i-arrow-right-linear" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12H20M14 18L20 12L14 6"/></symbol><symbol id="i-check-circle-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path stroke-linejoin="round" d="M8.5 12.5L10.5 14.5L15.5 9.5"/></g></symbol><symbol id="i-check-square-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z"/><path stroke-linejoin="round" d="M8.5 12.5L10.5 14.5L15.5 9.5"/></g></symbol><symbol id="i-close-circle-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5"/></g></symbol><symbol id="i-code-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M17 7.82959L18.6965 9.35641C20.239 10.7447 21.0103 11.4389 21.0103 12.3296C21.0103 13.2203 20.239 13.9145 18.6965 15.3028L17 16.8296"/><path d="M13.9868 5L12 12.4149L10.0132 19.8297"/><path d="M7.00005 7.82959L5.30358 9.35641C3.76102 10.7447 2.98975 11.4389 2.98975 12.3296C2.98975 13.2203 3.76102 13.9145 5.30358 15.3028L7.00005 16.8296"/></g></symbol><symbol id="i-document-text-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M3 10C3 6.22876 3 4.34315 4.17157 3.17157C5.34315 2 7.22876 2 11 2H13C16.7712 2 18.6569 2 19.8284 3.17157C21 4.34315 21 6.22876 21 10V14C21 17.7712 21 19.6569 19.8284 20.8284C18.6569 22 16.7712 22 13 22H11C7.22876 22 5.34315 22 4.17157 20.8284C3 19.6569 3 17.7712 3 14V10Z"/><path d="M8 12H16"/><path d="M8 8H16"/><path d="M8 16H13"/></g></symbol><symbol id="i-export-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12"/><path stroke-linejoin="round" d="M12 14L12 4M9 7L12 4L15 7"/></g></symbol><symbol id="i-folder-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M18 10L13 10"/><path d="M2 6.94975C2 6.06722 2 5.62595 2.06935 5.25839C2.37464 3.64031 3.64031 2.37464 5.25839 2.06935C5.62595 2 6.06722 2 6.94975 2C7.33642 2 7.52976 2 7.71557 2.01738C8.51665 2.09229 9.27652 2.40704 9.89594 2.92051C10.0396 3.03961 10.1763 3.17633 10.4497 3.44975L11 4C11.8158 4.81578 12.2237 5.22367 12.7121 5.49543C12.9804 5.64471 13.2651 5.7626 13.5604 5.84678C14.0979 6 14.6747 6 15.8284 6H16.2021C18.8345 6 20.1506 6 21.0062 6.76946C21.0849 6.84024 21.1598 6.91514 21.2305 6.99383C22 7.84935 22 9.16554 22 11.7979V14C22 17.7712 22 19.6569 20.8284 20.8284C19.6569 22 17.7712 22 14 22H10C6.22876 22 4.34315 22 3.17157 20.8284C2 19.6569 2 17.7712 2 14V6.94975Z"/></g></symbol><symbol id="i-full-screen-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M22 14C22 17.7712 22 19.6569 20.8284 20.8284C19.6569 22 17.7712 22 14 22"/><path d="M10 22C6.22876 22 4.34315 22 3.17157 20.8284C2 19.6569 2 17.7712 2 14"/><path d="M10 2C6.22876 2 4.34315 2 3.17157 3.17157C2 4.34315 2 6.22876 2 10"/><path d="M14 2C17.7712 2 19.6569 2 20.8284 3.17157C22 4.34315 22 6.22876 22 10"/></g></symbol><symbol id="i-hamburger-menu-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M20 7L4 7"/><path d="M20 12L4 12"/><path d="M20 17L4 17"/></g></symbol><symbol id="i-list-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><path d="M20 7L4 7"/><path d="M15 12L4 12"/><path d="M9 17H4"/></g></symbol><symbol id="i-moon-linear" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 22C17.5228 22 22 17.5228 22 12C22 11.5373 21.3065 11.4608 21.0672 11.8568C19.9289 13.7406 17.8615 15 15.5 15C11.9101 15 9 12.0899 9 8.5C9 6.13845 10.2594 4.07105 12.1432 2.93276C12.5392 2.69347 12.4627 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/></symbol><symbol id="i-pen-linear" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M14.3601 4.07866L15.2869 3.15178C16.8226 1.61607 19.3125 1.61607 20.8482 3.15178C22.3839 4.68748 22.3839 7.17735 20.8482 8.71306L19.9213 9.63993M14.3601 4.07866C14.3601 4.07866 14.4759 6.04828 16.2138 7.78618C17.9517 9.52407 19.9213 9.63993 19.9213 9.63993M19.9213 9.63993L11.4001 18.1612C10.8229 18.7383 10.5344 19.0269 10.2162 19.2751C9.84082 19.5679 9.43469 19.8189 9.00498 20.0237C8.6407 20.1973 8.25352 20.3263 7.47918 20.5844L4.19792 21.6782L3.39584 21.9456C3.01478 22.0726 2.59466 21.9734 2.31063 21.6894C2.0266 21.4053 1.92743 20.9852 2.05445 20.6042L2.32181 19.8021L3.41556 16.5208C3.67368 15.7465 3.80273 15.3593 3.97634 14.995C4.18114 14.5653 4.43213 14.1592 4.7249 13.7838C4.97308 13.4656 5.26166 13.1771 5.83882 12.5999L14.3601 4.07866M4.19792 21.6782L2.32181 19.8021"/></symbol><symbol id="i-sun-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><circle cx="12" cy="12" r="6"/><path d="M12 2V3"/><path d="M12 21V22"/><path d="M22 12L21 12"/><path d="M3 12L2 12"/><path d="M19.0708 4.92969L18.678 5.32252"/><path d="M5.32178 18.6777L4.92894 19.0706"/><path d="M19.0708 19.0703L18.678 18.6775"/><path d="M5.32178 5.32227L4.92894 4.92943"/></g></symbol><symbol id="i-magnifier-linear" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"><circle cx="11.5" cy="11.5" r="9.5"/><path d="M18.2173 18.2178L21.9999 22.0004"/></g></symbol></defs></svg><a class="skip-link" href="#main"><span data-ko="본문으로 이동" data-en="Skip to content">Skip to content</span></a><header class="site-header"><nav class="shell nav" aria-label="Main navigation" data-label-ko="주 메뉴" data-label-en="Main navigation"><a class="brand" href="./"><img src="assets/julsai-icon.png" width="32" height="32" alt=""><span>Julsai</span></a><div class="nav-links" id="nav-links"><a href="#explore"><span data-ko="살펴보기" data-en="Explore">Explore</span></a><a href="#themes"><span data-ko="테마" data-en="Themes">Themes</span></a><a href="#how-to"><span data-ko="사용법" data-en="Get started">Get started</span></a><a href="support/"><span data-ko="지원" data-en="Support">Support</span></a></div><div class="nav-actions"><button class="language-switch" type="button" aria-label="Switch to Korean">한국어</button><a class="button button-dark button-small" href="https://apps.apple.com/app/julsai/id6791138988?mt=12"><span data-ko="다운로드" data-en="Download">Download</span></a><button class="menu-toggle icon-button" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu" data-label-ko="메뉴 열기" data-label-en="Open menu"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-hamburger-menu-linear"></use></svg></button></div></nav></header><main id="main" tabindex="-1"><section class="hero shell" aria-labelledby="hero-title"><div class="hero-copy"><h1 id="hero-title"><span class="hero-line underline" data-ko="Markdown을" data-en="Read it. Edit it.">Read it. Edit it.</span><br><span class="hero-line" data-ko="읽고, 바로 고치세요." data-en="Keep it yours.">Keep it yours.</span></h1><p class="hero-description"><span data-ko="로컬 Markdown 파일을 편하게 읽고 수정하는 Mac용 앱." data-en="A Markdown reader and editor for files on your Mac.">A Markdown reader and editor for files on your Mac.</span><br><span data-ko="필요할 때 원문을 확인하고, HTML과 PDF로 내보내세요." data-en="Read comfortably, edit in place, and export to HTML or PDF.">Read comfortably, edit in place, and export to HTML or PDF.</span></p><div class="hero-actions"><a class="button button-amber" href="https://apps.apple.com/app/julsai/id6791138988?mt=12" rel="noopener"><span data-ko="Mac App Store에서 다운로드" data-en="Get Julsai for Mac">Get Julsai for Mac</span></a><a class="text-action" href="#explore"><span data-ko="미리 체험하기" data-en="Try the preview">Try the preview</span><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow-right-linear"></use></svg></a></div><p class="requirements"><span data-ko="무료 · macOS 14 이상" data-en="Free · macOS 14 or later">Free · macOS 14 or later</span></p></div><div class="hero-product" id="document-demo"><div class="doc-window  " data-editor="hero" data-appearance="light" data-mode="read"><div class="doc-toolbar"><div class="traffic-lights" aria-hidden="true"><i></i><i></i><i></i></div><div class="doc-filename"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="프로젝트 노트.md" data-en="Project notes.md">Project notes.md</span></div><div class="mode-tabs" role="tablist" aria-label="Document view" data-label-ko="문서 보기" data-label-en="Document view"><button type="button" role="tab" id="hero-tab-read" aria-controls="hero-panel" aria-selected="true" tabindex="0" data-mode-button="read"><span data-ko="읽기" data-en="Read">Read</span></button><button type="button" role="tab" id="hero-tab-edit" aria-controls="hero-panel" aria-selected="false" tabindex="-1" data-mode-button="edit"><span data-ko="편집" data-en="Edit">Edit</span></button><button type="button" role="tab" id="hero-tab-source" aria-controls="hero-panel" aria-selected="false" tabindex="-1" data-mode-button="source"><span data-ko="원문" data-en="Source">Source</span></button></div><div class="export-wrap"><button class="icon-button export-toggle" type="button" aria-expanded="false" aria-controls="hero-exports" aria-label="Export document" data-label-ko="문서 내보내기" data-label-en="Export document"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-export-linear"></use></svg></button><div class="export-menu" id="hero-exports" hidden><button type="button" data-export="md"><span data-ko="Markdown 저장" data-en="Save Markdown">Save Markdown</span></button><button type="button" data-export="html"><span data-ko="HTML로 내보내기" data-en="Export HTML">Export HTML</span></button></div></div></div><div class="doc-body"><aside class="doc-sidebar"><div class="sidebar-caption"><span data-ko="내 문서" data-en="Documents">Documents</span></div><div class="file-row is-selected"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="프로젝트 노트" data-en="Project notes">Project notes</span></div><div class="file-row"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="아이디어" data-en="Ideas">Ideas</span></div><div class="file-row"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="읽을거리" data-en="Reading list">Reading list</span></div><div class="outline-nav" aria-label="Document outline" data-label-ko="문서 목차" data-label-en="Document outline"><div class="sidebar-caption"><span data-ko="목차" data-en="Outline">Outline</span></div><button type="button" data-jump="0"><span data-ko="프로젝트 시작하기" data-en="Project kickoff">Project kickoff</span></button><button type="button" data-jump="1"><span data-ko="이번 주에 할 일" data-en="This week">This week</span></button><button type="button" data-jump="2"><span data-ko="작업 메모" data-en="Working notes">Working notes</span></button></div></aside><div class="doc-content-wrap"><div class="doc-tools"><button class="tool-button find-toggle" type="button" aria-expanded="false" aria-label="Find in document" data-label-ko="문서 검색" data-label-en="Find in document"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-magnifier-linear"></use></svg><span data-ko="검색" data-en="Find">Find</span></button><button class="tool-button focus-toggle" type="button" aria-pressed="false"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-full-screen-linear"></use></svg><span data-ko="집중" data-en="Focus">Focus</span></button><span class="tool-hint"><span data-ko="문서를 직접 고쳐보세요" data-en="Try editing this document">Try editing this document</span></span></div><div class="find-bar" hidden><label class="find-label" for="hero-find"><span data-ko="검색" data-en="Find">Find</span></label><input id="hero-find" type="search" autocomplete="off" maxlength="100" aria-label="Find text" data-label-ko="찾을 내용" data-label-en="Find text"><output class="find-count" aria-live="polite"></output><button class="icon-button find-close" type="button" aria-label="Close search" data-label-ko="검색 닫기" data-label-en="Close search"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-close-circle-linear"></use></svg></button></div><div class="doc-panel" id="hero-panel" role="tabpanel" aria-labelledby="hero-tab-read"><article class="doc-prose"></article><textarea class="source-editor" spellcheck="false" aria-label="Edit Markdown source" data-label-ko="Markdown 원문 편집" data-label-en="Edit Markdown source" hidden></textarea></div></div></div><div class="doc-status"><span class="status-mode"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-status-mode><span data-ko="읽기" data-en="Read">Read</span></span></span><span class="status-right"><span>Markdown</span><span class="status-local"><span data-ko="이 브라우저에서만 편집" data-en="Edits stay in this browser">Edits stay in this browser</span></span><span>100%</span></span></div></div></div><p class="preview-caption"><span data-ko="웹 예문에 Daylight를 적용했습니다. 앱에서는 0.5.8에 추가되는 색상 스타일입니다." data-en="This interactive sample uses Daylight, a color style in the Julsai 0.5.8 update.">This interactive sample uses Daylight, a color style in the Julsai 0.5.8 update.</span></p></section>
+<div id="experience"></div><section class="explore-section shell section-pad" id="explore" aria-labelledby="explore-title"><div class="explore-grid"><div class="explore-copy"><h2 id="explore-title"><span data-ko="읽던 자리에서," data-en="Keep your place.">Keep your place.</span><br><span data-ko="바로 수정하세요." data-en="Make your changes.">Make your changes.</span></h2><p class="section-description"><span data-ko="읽기는 편하게. 수정은 필요한 만큼." data-en="Stay with your document as you work.">Stay with your document as you work.</span><br><span data-ko="같은 문서에서 읽기·편집·원문을 오갑니다." data-en="Move between reading, editing, and Markdown source.">Move between reading, editing, and Markdown source.</span></p><div class="workflow-steps" aria-label="Document workflow" data-label-ko="사용 흐름" data-label-en="Document workflow"><button class="workflow-step " type="button" data-workflow="read" aria-pressed="false"><span class="step-title"><b>01</b><span data-ko="읽기" data-en="Read">Read</span></span><span class="step-description"><span data-ko="문서의 내용과 구조에 집중하세요." data-en="See the content, not the markup.">See the content, not the markup.</span></span></button><button class="workflow-step is-active" type="button" data-workflow="edit" aria-pressed="true"><span class="step-title"><b>02</b><span data-ko="편집" data-en="Edit">Edit</span></span><span class="step-description"><span data-ko="고칠 부분을 바로 수정하세요." data-en="Change the text right where you read it.">Change the text right where you read it.</span></span></button><button class="workflow-step " type="button" data-workflow="source" aria-pressed="false"><span class="step-title"><b>03</b><span data-ko="원문" data-en="Source">Source</span></span><span class="step-description"><span data-ko="Markdown 문법을 직접 확인하세요." data-en="Work directly with the Markdown when you need to.">Work directly with the Markdown when you need to.</span></span></button></div></div><div class="workflow-preview"><div class="doc-window doc-compact " data-editor="workflow" data-appearance="light" data-mode="edit"><div class="doc-toolbar"><div class="traffic-lights" aria-hidden="true"><i></i><i></i><i></i></div><div class="doc-filename"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="프로젝트 노트.md" data-en="Project notes.md">Project notes.md</span></div><div class="mode-tabs" role="tablist" aria-label="Document view" data-label-ko="문서 보기" data-label-en="Document view"><button type="button" role="tab" id="workflow-tab-read" aria-controls="workflow-panel" aria-selected="false" tabindex="-1" data-mode-button="read"><span data-ko="읽기" data-en="Read">Read</span></button><button type="button" role="tab" id="workflow-tab-edit" aria-controls="workflow-panel" aria-selected="true" tabindex="0" data-mode-button="edit"><span data-ko="편집" data-en="Edit">Edit</span></button><button type="button" role="tab" id="workflow-tab-source" aria-controls="workflow-panel" aria-selected="false" tabindex="-1" data-mode-button="source"><span data-ko="원문" data-en="Source">Source</span></button></div><div class="export-wrap"><button class="icon-button export-toggle" type="button" aria-expanded="false" aria-controls="workflow-exports" aria-label="Export document" data-label-ko="문서 내보내기" data-label-en="Export document"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-export-linear"></use></svg></button><div class="export-menu" id="workflow-exports" hidden><button type="button" data-export="md"><span data-ko="Markdown 저장" data-en="Save Markdown">Save Markdown</span></button><button type="button" data-export="html"><span data-ko="HTML로 내보내기" data-en="Export HTML">Export HTML</span></button></div></div></div><div class="doc-body"><aside class="doc-sidebar"><div class="sidebar-caption"><span data-ko="내 문서" data-en="Documents">Documents</span></div><div class="file-row is-selected"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="프로젝트 노트" data-en="Project notes">Project notes</span></div><div class="file-row"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="아이디어" data-en="Ideas">Ideas</span></div><div class="file-row"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="읽을거리" data-en="Reading list">Reading list</span></div><div class="outline-nav" aria-label="Document outline" data-label-ko="문서 목차" data-label-en="Document outline"><div class="sidebar-caption"><span data-ko="목차" data-en="Outline">Outline</span></div><button type="button" data-jump="0"><span data-ko="프로젝트 시작하기" data-en="Project kickoff">Project kickoff</span></button><button type="button" data-jump="1"><span data-ko="이번 주에 할 일" data-en="This week">This week</span></button><button type="button" data-jump="2"><span data-ko="작업 메모" data-en="Working notes">Working notes</span></button></div></aside><div class="doc-content-wrap"><div class="doc-panel" id="workflow-panel" role="tabpanel" aria-labelledby="workflow-tab-edit"><article class="doc-prose" contenteditable="true" spellcheck="false"></article><textarea class="source-editor" spellcheck="false" aria-label="Edit Markdown source" data-label-ko="Markdown 원문 편집" data-label-en="Edit Markdown source" hidden></textarea></div></div></div><div class="doc-status"><span class="status-mode"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-status-mode><span data-ko="읽기" data-en="Read">Read</span></span></span><span class="status-right"><span>Markdown</span><span class="status-local"><span data-ko="이 브라우저에서만 편집" data-en="Edits stay in this browser">Edits stay in this browser</span></span><span>100%</span></span></div></div><div class="demo-actions"><p><span data-ko="브라우저에서 직접 고쳐보세요." data-en="Make a few changes right here in your browser.">Make a few changes right here in your browser.</span></p><button class="reset-demo text-link" type="button"><span data-ko="예문 되돌리기" data-en="Reset sample">Reset sample</span></button></div><p class="demo-feedback" aria-live="polite"></p></div></div><div class="features" id="structure-demo"><h2><span data-ko="긴 문서도," data-en="Find your way,">Find your way,</span><br class="mobile-only"><span data-ko=" 길을 잃지 않게." data-en=" even in long documents."> even in long documents.</span></h2><div class="feature-row"><div class="feature-item"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-list-linear"></use></svg><h3><span data-ko="목차와 검색" data-en="Outline and search">Outline and search</span></h3><p><span data-ko="목차로 원하는 절에 이동하고, 문서 검색으로 필요한 내용을 찾으세요." data-en="Jump to a section with the outline, or search within your document.">Jump to a section with the outline, or search within your document.</span></p></div><div class="feature-item"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-full-screen-linear"></use></svg><h3><span data-ko="집중과 타자기" data-en="Focus and typewriter">Focus and typewriter</span></h3><p><span data-ko="현재 문장에 집중하고, 작성하는 위치를 편안하게 유지하세요." data-en="Keep your attention on the current passage and your writing position in view.">Keep your attention on the current passage and your writing position in view.</span></p></div><div class="feature-item"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><h3><span data-ko="HTML·PDF 출력" data-en="HTML and PDF export">HTML and PDF export</span></h3><p><span data-ko="0.5.8에서는 로컬 이미지와 직접 연결된 Markdown 문서를 HTML 파일 하나에 담을 수 있습니다." data-en="In 0.5.8, one HTML file can carry local images and directly linked Markdown documents.">In 0.5.8, one HTML file can carry local images and directly linked Markdown documents.</span></p></div></div></div></section>
+<div id="color-styles"></div><section class="theme-section section-pad" id="themes" aria-labelledby="theme-title"><div class="shell"><div class="theme-heading"><h2 id="theme-title"><span data-ko="밝고 선명한," data-en="A brighter view.">A brighter view.</span><br><span data-ko="새로운 Daylight." data-en="Meet Daylight.">Meet Daylight.</span></h2><div class="theme-intro"><p><span data-ko="굵은 제목, 편안한 본문, 선명한 주황색." data-en="Bold headings. Comfortable text. A clear amber accent.">Bold headings. Comfortable text. A clear amber accent.</span><br><span data-ko="웹의 인상을 문서 안에서도 이어갑니다." data-en="The same design, from this website to your documents.">The same design, from this website to your documents.</span></p><span class="proposal-note"><span data-ko="Julsai 0.5.8 · 다섯 번째 색상 스타일" data-en="Julsai 0.5.8 · A fifth color style">Julsai 0.5.8 · A fifth color style</span></span></div><div class="appearance-control" role="group" aria-label="Theme appearance" data-label-ko="테마 밝기" data-label-en="Theme appearance"><button type="button" data-appearance-choice="light" aria-pressed="true"><span data-ko="라이트" data-en="Light">Light</span></button><button type="button" data-appearance-choice="dark" aria-pressed="false"><span data-ko="다크" data-en="Dark">Dark</span></button><button type="button" data-appearance-choice="system" aria-pressed="false"><span data-ko="시스템" data-en="System">System</span></button></div></div><div class="theme-stage"><div class="doc-window  " data-editor="theme" data-appearance="light" data-mode="read"><div class="doc-toolbar"><div class="traffic-lights" aria-hidden="true"><i></i><i></i><i></i></div><div class="doc-filename"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="프로젝트 노트.md" data-en="Project notes.md">Project notes.md</span></div><div class="mode-tabs" role="tablist" aria-label="Document view" data-label-ko="문서 보기" data-label-en="Document view"><button type="button" role="tab" id="theme-tab-read" aria-controls="theme-panel" aria-selected="true" tabindex="0" data-mode-button="read"><span data-ko="읽기" data-en="Read">Read</span></button><button type="button" role="tab" id="theme-tab-edit" aria-controls="theme-panel" aria-selected="false" tabindex="-1" data-mode-button="edit"><span data-ko="편집" data-en="Edit">Edit</span></button><button type="button" role="tab" id="theme-tab-source" aria-controls="theme-panel" aria-selected="false" tabindex="-1" data-mode-button="source"><span data-ko="원문" data-en="Source">Source</span></button></div><div class="export-wrap"><button class="icon-button export-toggle" type="button" aria-expanded="false" aria-controls="theme-exports" aria-label="Export document" data-label-ko="문서 내보내기" data-label-en="Export document"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-export-linear"></use></svg></button><div class="export-menu" id="theme-exports" hidden><button type="button" data-export="md"><span data-ko="Markdown 저장" data-en="Save Markdown">Save Markdown</span></button><button type="button" data-export="html"><span data-ko="HTML로 내보내기" data-en="Export HTML">Export HTML</span></button></div></div></div><div class="doc-body"><aside class="doc-sidebar"><div class="sidebar-caption"><span data-ko="내 문서" data-en="Documents">Documents</span></div><div class="file-row is-selected"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="프로젝트 노트" data-en="Project notes">Project notes</span></div><div class="file-row"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="아이디어" data-en="Ideas">Ideas</span></div><div class="file-row"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="읽을거리" data-en="Reading list">Reading list</span></div><div class="outline-nav" aria-label="Document outline" data-label-ko="문서 목차" data-label-en="Document outline"><div class="sidebar-caption"><span data-ko="목차" data-en="Outline">Outline</span></div><button type="button" data-jump="0"><span data-ko="프로젝트 시작하기" data-en="Project kickoff">Project kickoff</span></button><button type="button" data-jump="1"><span data-ko="이번 주에 할 일" data-en="This week">This week</span></button><button type="button" data-jump="2"><span data-ko="작업 메모" data-en="Working notes">Working notes</span></button></div></aside><div class="doc-content-wrap"><div class="doc-panel" id="theme-panel" role="tabpanel" aria-labelledby="theme-tab-read"><article class="doc-prose"></article><textarea class="source-editor" spellcheck="false" aria-label="Edit Markdown source" data-label-ko="Markdown 원문 편집" data-label-en="Edit Markdown source" hidden></textarea></div></div></div><div class="doc-status"><span class="status-mode"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-status-mode><span data-ko="읽기" data-en="Read">Read</span></span></span><span class="status-right"><span>Markdown</span><span class="status-local"><span data-ko="이 브라우저에서만 편집" data-en="Edits stay in this browser">Edits stay in this browser</span></span><span>100%</span></span></div></div><div class="theme-inset"><div class="doc-window  doc-mini" data-editor="theme-mini" data-appearance="dark" data-mode="read" aria-hidden="true" inert><div class="doc-toolbar"><div class="traffic-lights" aria-hidden="true"><i></i><i></i><i></i></div><div class="doc-filename"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="프로젝트 노트.md" data-en="Project notes.md">Project notes.md</span></div><span class="mini-view-label"><span data-ko="다크" data-en="Dark">Dark</span></span></div><div class="doc-body"><aside class="doc-sidebar"><div class="sidebar-caption"><span data-ko="내 문서" data-en="Documents">Documents</span></div><div class="file-row is-selected"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="프로젝트 노트" data-en="Project notes">Project notes</span></div><div class="file-row"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="아이디어" data-en="Ideas">Ideas</span></div><div class="file-row"><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-document-text-linear"></use></svg><span data-ko="읽을거리" data-en="Reading list">Reading list</span></div></aside><div class="doc-content-wrap"><div class="doc-panel" id="theme-mini-panel" role="presentation" ><article class="doc-prose"></article><textarea class="source-editor" spellcheck="false" aria-label="Edit Markdown source" data-label-ko="Markdown 원문 편집" data-label-en="Edit Markdown source" hidden></textarea></div></div></div></div></div></div><div class="existing-styles"><h3><span data-ko="기본 Julsai와 다른 스타일" data-en="Julsai and the other styles">Julsai and the other styles</span></h3><p>Julsai<span>·</span>Postal Editorial<span>·</span>Roseleaf<span>·</span>Cyberpunk</p></div></div></section>
+<section class="languages-section shell" id="languages" aria-labelledby="languages-title"><h2 id="languages-title"><span data-ko="익숙한 언어로 작업하세요." data-en="Work in a familiar language.">Work in a familiar language.</span></h2><p><span data-ko="Julsai는 Mac의 언어 설정을 따릅니다. 한국어와 영어를 포함한 33개 언어의 앱 인터페이스를 지원합니다." data-en="Julsai follows your Mac’s language settings and offers its interface in 33 languages, including Korean and English.">Julsai follows your Mac’s language settings and offers its interface in 33 languages, including Korean and English.</span></p></section><section class="how-section shell section-pad" id="how-to" aria-labelledby="how-title"><div class="how-grid"><h2 id="how-title"><span data-ko="열고, 고치고," data-en="Open. Edit.">Open. Edit.</span><br><span data-ko="내보내세요." data-en="Export.">Export.</span></h2><ol class="getting-started"><li><span>01</span><div><h3><span data-ko="Markdown 파일 열기" data-en="Open a Markdown file">Open a Markdown file</span></h3><p><span data-ko="Mac에 있는 문서로 바로 시작하세요." data-en="Start with a document already on your Mac.">Start with a document already on your Mac.</span></p></div></li><li><span>02</span><div><h3><span data-ko="이미지가 있다면 폴더 연결" data-en="Connect its folder for local images">Connect its folder for local images</span></h3><p><span data-ko="문서와 함께 있는 이미지에 접근하도록 연결하세요." data-en="Give Julsai access to the images beside your document.">Give Julsai access to the images beside your document.</span></p></div></li><li><span>03</span><div><h3><span data-ko="수정한 뒤 저장하고 내보내기" data-en="Save your changes, then export">Save your changes, then export</span></h3><p><span data-ko="0.5.8에서는 입력 직후 저장하거나 문서를 닫을 때 마지막 수정 내용이 반영되도록 저장을 개선했습니다." data-en="Version 0.5.8 makes saving more reliable when you save or close a document just after editing.">Version 0.5.8 makes saving more reliable when you save or close a document just after editing.</span></p></div></li></ol></div><div class="help-grid" id="help"><div class="help-heading"><h2><span data-ko="궁금한 점이 있나요?" data-en="Need a hand?">Need a hand?</span></h2><p><span data-ko="앱 버전과 증상을 함께 알려주시면 도움이 됩니다." data-en="Include your app version and a short description of the issue.">Include your app version and a short description of the issue.</span></p><a class="contact-link" href="mailto:bkchoi@me.com">bkchoi@me.com<svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow-right-linear"></use></svg></a></div><div class="faq"><details open><summary><span data-ko="기존 Markdown 파일을 사용할 수 있나요?" data-en="Can I use my existing Markdown files?">Can I use my existing Markdown files?</span><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-alt-arrow-down-linear"></use></svg></summary><div class="faq-answer"><p><span data-ko="네. Mac에 있는 Markdown 파일을 열어 그대로 읽고 수정할 수 있습니다. 문서는 선택한 파일 위치에 저장됩니다." data-en="Yes. Open the Markdown files already on your Mac, read them, and make changes. Documents are saved in the file locations you choose.">Yes. Open the Markdown files already on your Mac, read them, and make changes. Documents are saved in the file locations you choose.</span></p></div></details><details><summary><span data-ko="이미지가 보이지 않아요." data-en="Why can’t I see my local images?">Why can’t I see my local images?</span><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-alt-arrow-down-linear"></use></svg></summary><div class="faq-answer"><p><span data-ko="문서와 함께 있는 이미지에는 폴더 접근 권한이 필요할 수 있습니다. 앱에서 문서가 들어 있는 폴더를 연결하고 이미지 경로를 확인해 주세요." data-en="Images beside a document may need folder access. Connect the document’s folder in Julsai and check that its image paths are correct.">Images beside a document may need folder access. Connect the document’s folder in Julsai and check that its image paths are correct.</span></p></div></details><details><summary><span data-ko="문서는 어디에 저장되나요?" data-en="Where are my documents stored?">Where are my documents stored?</span><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-alt-arrow-down-linear"></use></svg></summary><div class="faq-answer"><p><span data-ko="열거나 저장할 때 선택한 파일 위치에 있습니다. Julsai 자체 문서 서버는 없습니다. iCloud Drive 같은 서비스가 그 위치를 동기화한다면 해당 서비스의 설정이 적용됩니다." data-en="They stay in the location you choose when opening or saving a file. Julsai has no document server. If a service such as iCloud Drive syncs that location, its own settings apply.">They stay in the location you choose when opening or saving a file. Julsai has no document server. If a service such as iCloud Drive syncs that location, its own settings apply.</span></p></div></details><details><summary><span data-ko="HTML 파일 하나로 공유할 수 있나요?" data-en="Can I share my document as one HTML file?">Can I share my document as one HTML file?</span><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-alt-arrow-down-linear"></use></svg></summary><div class="faq-answer"><p><span data-ko="0.5.8에서는 접근할 수 있는 로컬 이미지와 원문에서 직접 연결한 Markdown 문서를 HTML 파일 하나에 담을 수 있습니다. 필요한 경우 내보낼 때 연결 문서가 들어 있는 폴더를 선택하세요. PDF 내보내기도 지원합니다." data-en="In 0.5.8, one HTML export can include local images and Markdown documents linked directly from the original. If Julsai needs access, choose the folder containing the linked documents when you export. You can also export to PDF.">In 0.5.8, one HTML export can include local images and Markdown documents linked directly from the original. If Julsai needs access, choose the folder containing the linked documents when you export. You can also export to PDF.</span></p></div></details><details><summary><span data-ko="Daylight는 어떻게 사용하나요?" data-en="How do I use Daylight?">How do I use Daylight?</span><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-alt-arrow-down-linear"></use></svg></summary><div class="faq-answer"><p><span data-ko="Daylight는 0.5.8에 추가되는 다섯 번째 색상 스타일입니다. 해당 버전에서는 설정의 색상 스타일에서 Daylight를 고르고, 화면 모드는 라이트·다크·시스템 중에 선택할 수 있습니다. Mac App Store에서 현재 제공 버전을 확인할 수 있습니다." data-en="Daylight is the fifth color style in the 0.5.8 update. In that version, choose Daylight in Settings under Color Style, then choose Light, Dark, or System under Appearance. The Mac App Store lists the version currently available.">Daylight is the fifth color style in the 0.5.8 update. In that version, choose Daylight in Settings under Color Style, then choose Light, Dark, or System under Appearance. The Mac App Store lists the version currently available.</span></p></div></details></div></div></section>
+<section class="privacy-band"><div class="shell privacy-band-inner"><h2><span data-ko="내 파일은," data-en="Your files,">Your files,</span><br class="mobile-only"><span data-ko=" 내가 선택한 곳에." data-en=" where you choose."> where you choose.</span></h2><div><p><span data-ko="Julsai 계정이나 문서 서버 없이 로컬 파일로 작업합니다." data-en="Work with local files, without a Julsai account or document server.">Work with local files, without a Julsai account or document server.</span></p><a class="text-link" href="privacy/"><span data-ko="개인정보 처리 자세히 보기" data-en="Read about privacy">Read about privacy</span><svg class="icon " viewBox="0 0 24 24" aria-hidden="true"><use href="#i-arrow-right-linear"></use></svg></a></div></div></section><section class="closing"><div class="shell"><h2><span data-ko="다음 문서부터, Julsai로." data-en="Your next document starts here.">Your next document starts here.</span></h2><a class="button button-dark" href="https://apps.apple.com/app/julsai/id6791138988?mt=12" rel="noopener"><span data-ko="Mac App Store에서 다운로드" data-en="Get Julsai for Mac">Get Julsai for Mac</span></a><p><span data-ko="Mac을 위한 Markdown 리더 겸 편집기." data-en="A Markdown reader and editor, made for Mac.">A Markdown reader and editor, made for Mac.</span></p></div></section></main><footer class="site-footer shell"><a class="brand footer-brand" href="./">Julsai<span class="brand-dot"></span></a><div class="footer-links"><a href="support/"><span data-ko="지원" data-en="Support">Support</span></a><a href="privacy/"><span data-ko="개인정보" data-en="Privacy">Privacy</span></a><a href="mailto:bkchoi@me.com"><span data-ko="문의" data-en="Contact">Contact</span></a><button class="language-switch" type="button">한국어</button></div><span class="copyright">© 2026 BK · <a href="assets/solar-icons-LICENSE.txt"><span data-ko="아이콘 출처" data-en="Icon credits">Icon credits</span></a></span></footer><div class="toast" role="status" aria-live="polite"></div><script>(() => {
+  'use strict';
+  const all=(s,r=document)=>Array.from(r.querySelectorAll(s));
+  const one=(s,r=document)=>r.querySelector(s);
+  const escapeHTML=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+  const seed={
+    ko:'# 프로젝트 시작하기\n\n목표와 자료, 다음 할 일을 한 문서에 정리합니다.\n\n## 이번 주에 할 일\n\n- [ ] 목표와 범위 정리하기\n- [ ] 필요한 자료 모으기\n- [ ] 첫 결과물 만들기\n\n> 작게 시작하고, 빠르게 확인하며 진행합니다.\n\n## 작업 메모\n\n| 항목 | 내용 |\n| --- | --- |\n| 프로젝트 목표 | 핵심 기능을 구현하고 사용성을 확인합니다. |\n| 주요 자료 | 기획서, 참고 링크, 예시 문서 |\n\n```javascript\nconst project = "Julsai";\nconsole.log(`Start ${project}`);\n```',
+    en:'# Project kickoff\n\nKeep the plan, the details, and the next step in one document.\n\n## This week\n\n- [ ] Define the goal and scope\n- [ ] Gather the materials\n- [ ] Make the first version\n\n> Start small, check early, and keep moving.\n\n## Working notes\n\n| Item | Details |\n| --- | --- |\n| Project goal | Build the core features and check usability. |\n| Materials | Brief, reference links, and sample documents |\n\n```javascript\nconst project = "Julsai";\nconsole.log(`Start ${project}`);\n```'
+  };
+  const documents={...seed};
+  const requestedLanguage=new URL(location.href).searchParams.get('lang');
+  let language=requestedLanguage==='ko'||requestedLanguage==='en'?requestedLanguage:(/^ko(?:-|$)/i.test(navigator.language)?'ko':'en');
+  let appearance='light';
+  const editors=all('[data-editor]').map(root=>({root,id:root.dataset.editor,mode:root.dataset.mode||'read',prose:one('.doc-prose',root),source:one('.source-editor',root),query:'',focused:false}));
+  const byId=id=>editors.find(e=>e.id===id);
+  const tr=(ko,en)=>language==='ko'?ko:en;
+  const media=window.matchMedia('(prefers-color-scheme: dark)');
+  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
+  let toastTimeout;
+
+  function inline(text){
+    return escapeHTML(text).replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+  }
+  function codeHTML(text){
+    const pattern=/(\/\/[^\n]*|"(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*'|\x60[^\x60]*\x60|\b(?:const|let|var|function|return|if|else|true|false|null)\b|\b\d+(?:\.\d+)?\b)/g;
+    let result='',start=0;
+    for(const match of text.matchAll(pattern)){
+      result+=escapeHTML(text.slice(start,match.index));
+      const token=match[0];
+      const cls=token.startsWith('//')?'code-comment':/^["'\x60]/.test(token)?'code-string':/^\d/.test(token)?'code-number':'code-keyword';
+      result+=`<span class="${cls}">${escapeHTML(token)}</span>`;
+      start=match.index+token.length;
+    }
+    return result+escapeHTML(text.slice(start));
+  }
+  function markdownToHTML(markdown){
+    const lines=markdown.replace(/\r/g,'').split('\n');
+    const out=[]; let i=0;
+    while(i<lines.length){
+      const line=lines[i];
+      if(!line.trim()){i++;continue;}
+      const fence=line.match(/^(`{3,}|~{3,})(.*)$/);
+      if(fence){
+        const code=[];let closing='';i++;
+        while(i<lines.length){
+          const candidate=lines[i].trim().match(/^(`{3,}|~{3,})\s*$/);
+          if(candidate&&candidate[1][0]===fence[1][0]&&candidate[1].length>=fence[1].length){closing=lines[i++];break;}
+          code.push(lines[i++]);
+        }
+        out.push(`<pre data-code-fence="${escapeHTML(line)}" data-code-close="${escapeHTML(closing)}"><code>${codeHTML(code.join('\n'))}</code></pre>`);continue;
+      }
+      const heading=line.match(/^(#{1,6})\s+(.+)$/);
+      if(heading){const level=heading[1].length;out.push(`<h${level}>${inline(heading[2])}</h${level}>`);i++;continue;}
+      if(/^\s*>/.test(line)){
+        const quoted=[];
+        while(i<lines.length&&/^\s*>/.test(lines[i]))quoted.push(lines[i++].replace(/^\s*>\s?/,''));
+        out.push(`<blockquote><p>${quoted.map(inline).join('<br>')}</p></blockquote>`);continue;
+      }
+      if(/^\s*\|.*\|\s*$/.test(line)&&/^\s*\|?[\s:|-]+\|?\s*$/.test(lines[i+1]||'')&&(lines[i+1]||'').includes('---')){
+        const split=s=>s.trim().replace(/^\|/,'').replace(/\|$/,'').split('|').map(x=>x.trim());
+        const head=split(line);i+=2;const rows=[];
+        while(i<lines.length&&/^\s*\|.*\|\s*$/.test(lines[i]))rows.push(split(lines[i++]));
+        out.push(`<div class="table-scroll"><table><thead><tr>${head.map(c=>`<th>${inline(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(row=>`<tr>${row.map(c=>`<td>${inline(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);continue;
+      }
+      if(/^\s*[-*]\s+/.test(line)){
+        const items=[];
+        while(i<lines.length&&/^\s*[-*]\s+/.test(lines[i])){
+          const body=lines[i++].replace(/^\s*[-*]\s+/,'');const task=body.match(/^\[([ xX])\]\s+(.*)$/);
+          items.push(task?`<li class="task-item"><label class="task-label"><input type="checkbox"${task[1].toLowerCase()==='x'?' checked':''} aria-label="${escapeHTML(task[2])}" contenteditable="false"><span>${inline(task[2])}</span></label></li>`:`<li>${inline(body)}</li>`);
+        }
+        out.push(`<ul${items.some(s=>s.includes('task-item'))?' class="task-list"':''}>${items.join('')}</ul>`);continue;
+      }
+      const paragraph=[];
+      while(i<lines.length&&lines[i].trim()&&!/^(?:#{1,6}\s|```|\s*>|\s*[-*]\s|\s*\|)/.test(lines[i]))paragraph.push(lines[i++]);
+      if(paragraph.length)out.push(`<p>${paragraph.map(inline).join('<br>')}</p>`);
+      else {out.push(`<p>${inline(lines[i])}</p>`);i++;}
+    }
+    return out.join('');
+  }
+  const plain=node=>node.textContent.replace(/\u00a0/g,' ');
+  function inlineMarkdown(node){
+    if(node.nodeType===Node.TEXT_NODE)return node.textContent;
+    const text=Array.from(node.childNodes).map(inlineMarkdown).join('');
+    if(node.nodeName==='BR')return '\n';
+    if(node.nodeName==='STRONG'||node.nodeName==='B')return `**${text}**`;
+    if(node.nodeName==='CODE')return '`'+text+'`';
+    return text;
+  }
+  function proseToMarkdown(article){
+    const blocks=[];
+    for(const node of article.childNodes){
+      if(node.nodeType===Node.TEXT_NODE){if(node.textContent.trim())blocks.push(node.textContent);continue;}
+      const tag=node.nodeName;
+      if(/^H[1-6]$/.test(tag)){blocks.push('#'.repeat(Number(tag[1]))+' '+plain(node));continue;}
+      if(tag==='UL'||tag==='OL'){
+        blocks.push(all(':scope > li',node).map(li=>{
+          const checkbox=one('input[type="checkbox"]',li);
+          return checkbox?`- [${checkbox.checked?'x':' '}] ${plain(li).trim()}`:'- '+inlineMarkdown(li).trim();
+        }).join('\n'));continue;
+      }
+      if(tag==='BLOCKQUOTE'){blocks.push(inlineMarkdown(node).trim().split('\n').map(s=>'> '+s).join('\n'));continue;}
+      if(tag==='PRE'){
+        const opening=node.getAttribute('data-code-fence')??'```';
+        const closing=node.getAttribute('data-code-close')??'```';
+        blocks.push(opening+'\n'+plain(node)+(closing?'\n'+closing:''));continue;
+      }
+      const table=tag==='TABLE'?node:one('table',node);
+      if(table){const rows=all('tr',table).map(row=>all('th,td',row).map(c=>plain(c).replaceAll('|','\\|')));if(rows.length){const formatted=rows.map(r=>'| '+r.join(' | ')+' |');formatted.splice(1,0,'| '+rows[0].map(()=>'---').join(' | ')+' |');blocks.push(formatted.join('\n'));}continue;}
+      blocks.push(inlineMarkdown(node).trim());
+    }
+    return blocks.filter(Boolean).join('\n\n');
+  }
+  function announce(ko,en){
+    const toast=one('.toast');if(!toast)return;
+    toast.textContent=tr(ko,en);toast.classList.add('is-visible');
+    clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>toast.classList.remove('is-visible'),3600);
+  }
+  function updateOutline(editor){
+    const headings=all('h1,h2',editor.prose);
+    all('[data-jump]',editor.root).forEach((b,i)=>{if(headings[i]){b.textContent=headings[i].textContent;b.disabled=false;}else b.disabled=true;});
+  }
+  function markMatches(editor){
+    if(!editor.query)return 0;
+    const query=editor.query.toLocaleLowerCase();
+    const walker=document.createTreeWalker(editor.prose,NodeFilter.SHOW_TEXT);const nodes=[];
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    let count=0;
+    for(const node of nodes){
+      const text=node.textContent;const lower=text.toLocaleLowerCase();let start=0,index=lower.indexOf(query);if(index<0)continue;
+      const frag=document.createDocumentFragment();
+      while(index>=0){frag.append(text.slice(start,index));const mark=document.createElement('mark');mark.textContent=text.slice(index,index+query.length);frag.append(mark);count++;start=index+query.length;index=lower.indexOf(query,start);}
+      frag.append(text.slice(start));node.replaceWith(frag);
+    }
+    return count;
+  }
+  function updateFind(editor){
+    const output=one('.find-count',editor.root);if(!output)return;
+    const n=markMatches(editor);output.textContent=editor.query?tr(`${n}개`,`${n} found`):'';
+    if(n)one('mark',editor.prose)?.scrollIntoView({block:'nearest',behavior:'instant'});
+  }
+  function renderEditor(editor){
+    editor.prose.innerHTML=markdownToHTML(documents[language]);
+    editor.source.value=documents[language];
+    editor.prose.hidden=editor.mode==='source';editor.source.hidden=editor.mode!=='source';
+    editor.prose.contentEditable=editor.mode==='edit'?'true':'false';
+    editor.prose.setAttribute('aria-label',tr('문서 예문. 편집 모드에서 내용을 수정할 수 있습니다.','Sample document. Switch to Edit to make changes.'));
+    editor.root.dataset.mode=editor.mode;
+    all('[data-mode-button]',editor.root).forEach(button=>{
+      const selected=button.dataset.modeButton===editor.mode;button.setAttribute('aria-selected',String(selected));button.tabIndex=selected?0:-1;
+    });
+    const panel=one('[role="tabpanel"]',editor.root);if(panel)panel.setAttribute('aria-labelledby',`${editor.id}-tab-${editor.mode}`);
+    const status=one('[data-status-mode]',editor.root);if(status)status.textContent=({read:tr('읽기','Read'),edit:tr('편집','Edit'),source:tr('원문','Source')})[editor.mode];
+    if(editor.focused)one(':scope > h2, :scope > p',editor.prose)?.classList.add('focus-block');
+    updateOutline(editor);updateFind(editor);
+  }
+  function updateWorkflow(){
+    const mode=byId('workflow')?.mode||'read';
+    all('[data-workflow]').forEach(b=>{const active=b.dataset.workflow===mode;b.classList.toggle('is-active',active);b.setAttribute('aria-pressed',String(active));});
+  }
+  function setMode(editor,mode,focus=false){
+    editor.mode=mode;editor.query='';const input=one('.find-bar input',editor.root);if(input)input.value='';
+    renderEditor(editor);updateWorkflow();
+    if(focus&&mode==='edit')editor.prose.focus({preventScroll:true});
+    if(focus&&mode==='source')editor.source.focus({preventScroll:true});
+  }
+  function sharedChange(origin,markdown){
+    documents[language]=markdown;
+    for(const e of editors)if(e!==origin)renderEditor(e);
+    updateOutline(origin);
+    const feedback=one('.demo-feedback');
+    if(feedback)feedback.textContent=tr('수정 내용은 이 페이지 안에서만 반영됩니다.','Your changes are kept in this page only.');
+  }
+  function updateTheme(){
+    const dark=appearance==='dark'||(appearance==='system'&&media.matches);
+    const main=byId('theme'),mini=byId('theme-mini');
+    if(main)main.root.dataset.appearance=dark?'dark':'light';
+    if(mini){mini.root.dataset.appearance=dark?'light':'dark';const miniLabel=one('.mini-view-label',mini.root);if(miniLabel)miniLabel.textContent=dark?tr('라이트','Light'):tr('다크','Dark');}
+    all('[data-appearance-choice]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.appearanceChoice===appearance)));
+  }
+  function internalLinks(){
+    all('a[href]').forEach(a=>{
+      const href=a.getAttribute('href');if(!href||href.startsWith('#')||/^(?:mailto:|https?:)/.test(href)&&!href.startsWith(location.origin))return;
+      let url;try{url=new URL(href,location.href);}catch{return;}
+      if(!['http:','https:','file:'].includes(url.protocol)||url.origin!==location.origin)return;
+      if(!/(?:index\.html|\/(?:privacy|support)\/?|\/)$/.test(url.pathname))return;
+      url.searchParams.set('lang',language);a.href=url.href;
+    });
+  }
+  function applyLanguage(next,updateURL=false){
+    language=next==='en'?'en':'ko';document.documentElement.lang=language;
+    all('[data-ko][data-en]').forEach(el=>{el.textContent=el.dataset[language];});
+    all('[data-label-ko]').forEach(el=>el.setAttribute('aria-label',language==='ko'?el.dataset.labelKo:el.dataset.labelEn));
+    all('.language-switch').forEach(b=>{b.textContent=tr('English','한국어');b.setAttribute('aria-label',tr('웹사이트 언어를 영어로 전환','Switch website language to Korean'));});
+    document.title=document.body.dataset.page==='privacy'?tr('개인정보 — Julsai','Privacy — Julsai'):tr('Julsai — Markdown을 읽고, 바로 고치세요.','Julsai — Read it. Edit it. Keep it yours.');
+    one('meta[name="description"]')?.setAttribute('content',tr('로컬 Markdown 파일을 읽고 수정하는 무료 Mac용 앱. 문서를 HTML이나 PDF로 내보낼 수 있습니다.','A free Markdown reader and editor for Mac. Read, edit, and export local documents.'));
+    if(updateURL){try{const url=new URL(location.href);url.searchParams.set('lang',language);history.replaceState(null,'',url);}catch{}}
+    internalLinks();editors.forEach(renderEditor);updateTheme();updateWorkflow();
+    const feedback=one('.demo-feedback');if(feedback)feedback.textContent='';
+  }
+  function closeExports(){all('.export-menu').forEach(m=>m.hidden=true);all('.export-toggle').forEach(b=>b.setAttribute('aria-expanded','false'));}
+  function downloadText(contents,filename,type){
+    const url=URL.createObjectURL(new Blob([contents],{type}));const a=document.createElement('a');a.href=url;a.download=filename;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),3000);
+  }
+  function exportDocument(editor,type){
+    const name=language==='ko'?'프로젝트 노트':'Project notes';
+    if(type==='md')downloadText(documents[language],name+'.md','text/markdown;charset=utf-8');
+    else{
+      const dark=editor.root.dataset.appearance==='dark';
+      const css=`color-scheme:${dark?'dark':'light'};--canvas:${dark?'#191C20':'#FFFFFF'};--text:${dark?'#F6F7F8':'#171A1D'};`;
+      const output='<!doctype html><html lang="'+language+'"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+escapeHTML(name)+'</title><style>html{'+css+'background:var(--canvas);color:var(--text)}body{max-width:760px;margin:64px auto;padding:0 24px;font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;font-size:18px;line-height:1.8}h1,h2{line-height:1.3;letter-spacing:-.02em}h1{font-size:40px}blockquote{border-left:4px solid #EF8A09;margin:24px 0;padding-left:20px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #A6A7A9;padding:10px;text-align:left}pre{padding:20px;overflow:auto;background:'+(dark?'#24282D':'#F6F7F8')+'}li{margin:8px 0}input{margin-right:8px;accent-color:#EF8A09}code{font-family:ui-monospace,monospace;font-size:.85em}</style><body>'+markdownToHTML(documents[language])+'</body></html>';
+      downloadText(output,name+'.html','text/html;charset=utf-8');
+    }
+    closeExports();announce('예문 파일을 다운로드했습니다.','Your sample document has been downloaded.');
+  }
+  for(const editor of editors){
+    all('[data-mode-button]',editor.root).forEach(button=>{
+      button.addEventListener('click',()=>setMode(editor,button.dataset.modeButton,true));
+      button.addEventListener('keydown',event=>{
+        if(!['ArrowLeft','ArrowRight','Home','End'].includes(event.key))return;event.preventDefault();
+        const tabs=all('[data-mode-button]',editor.root);let i=tabs.indexOf(button);i=event.key==='Home'?0:event.key==='End'?tabs.length-1:(i+(event.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length;tabs[i].focus();setMode(editor,tabs[i].dataset.modeButton);
+      });
+    });
+    editor.prose.addEventListener('input',()=>{if(editor.mode==='edit')sharedChange(editor,proseToMarkdown(editor.prose));});
+    editor.prose.addEventListener('paste',event=>{
+      if(editor.mode!=='edit')return;event.preventDefault();const text=event.clipboardData.getData('text/plain');const selection=getSelection();if(!selection.rangeCount)return;const range=selection.getRangeAt(0);range.deleteContents();const node=document.createTextNode(text);range.insertNode(node);range.setStartAfter(node);range.collapse(true);selection.removeAllRanges();selection.addRange(range);sharedChange(editor,proseToMarkdown(editor.prose));
+    });
+    editor.prose.addEventListener('change',event=>{if(event.target.matches('input[type="checkbox"]'))sharedChange(editor,proseToMarkdown(editor.prose));});
+    editor.prose.addEventListener('click',event=>{
+      if(!editor.focused)return;const block=event.target.closest('.doc-prose > *');if(!block)return;all('.focus-block',editor.prose).forEach(x=>x.classList.remove('focus-block'));block.classList.add('focus-block');
+    });
+    editor.source.addEventListener('input',()=>sharedChange(editor,editor.source.value));
+    one('.export-toggle',editor.root)?.addEventListener('click',()=>{
+      const menu=one('.export-menu',editor.root),button=one('.export-toggle',editor.root);const open=menu.hidden;closeExports();menu.hidden=!open;button.setAttribute('aria-expanded',String(open));if(open)one('button',menu)?.focus();
+    });
+    all('[data-export]',editor.root).forEach(b=>b.addEventListener('click',()=>exportDocument(editor,b.dataset.export)));
+    all('[data-jump]',editor.root).forEach(b=>b.addEventListener('click',()=>{
+      if(editor.mode==='source')setMode(editor,'read');const h=all('h1,h2',editor.prose)[Number(b.dataset.jump)];h?.scrollIntoView({block:'start',behavior:reduced.matches?'instant':'smooth'});
+    }));
+    const findBar=one('.find-bar',editor.root),findToggle=one('.find-toggle',editor.root);
+    findToggle?.addEventListener('click',()=>{const show=findBar.hidden;findBar.hidden=!show;findToggle.setAttribute('aria-expanded',String(show));if(show){setMode(editor,'read');one('input',findBar)?.focus();}});
+    const closeFind=()=>{if(!findBar)return;findBar.hidden=true;findToggle.setAttribute('aria-expanded','false');editor.query='';one('input',findBar).value='';renderEditor(editor);findToggle.focus();};
+    one('.find-close',editor.root)?.addEventListener('click',closeFind);
+    one('.find-bar input',editor.root)?.addEventListener('input',event=>{editor.query=event.target.value;renderEditor(editor);});
+    one('.find-bar input',editor.root)?.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();closeFind();}});
+    one('.focus-toggle',editor.root)?.addEventListener('click',event=>{editor.focused=!editor.focused;editor.root.classList.toggle('is-focused',editor.focused);event.currentTarget.setAttribute('aria-pressed',String(editor.focused));if(editor.focused)one(':scope > h2,:scope > p',editor.prose)?.classList.add('focus-block');});
+  }
+  all('[data-workflow]').forEach(b=>b.addEventListener('click',()=>setMode(byId('workflow'),b.dataset.workflow,true)));
+  all('[data-appearance-choice]').forEach(b=>b.addEventListener('click',()=>{appearance=b.dataset.appearanceChoice;updateTheme();}));
+  media.addEventListener('change',updateTheme);
+  all('.language-switch').forEach(b=>b.addEventListener('click',()=>{applyLanguage(language==='ko'?'en':'ko',true);closeMenu();}));
+  all('.reset-demo').forEach(b=>b.addEventListener('click',()=>{documents[language]=seed[language];editors.forEach(renderEditor);const feedback=one('.demo-feedback');if(feedback)feedback.textContent=tr('처음 예문으로 되돌렸습니다.','The original sample has been restored.');announce('예문을 되돌렸습니다.','Sample restored.');}));
+  const menuButton=one('.menu-toggle'),header=one('.site-header');
+  function closeMenu(restoreFocus=false){header?.classList.remove('menu-open');menuButton?.setAttribute('aria-expanded','false');if(restoreFocus)menuButton?.focus();}
+  menuButton?.addEventListener('click',()=>{const open=menuButton.getAttribute('aria-expanded')!=='true';header.classList.toggle('menu-open',open);menuButton.setAttribute('aria-expanded',String(open));});
+  all('.nav-links a').forEach(a=>a.addEventListener('click',()=>closeMenu()));
+  window.matchMedia('(max-width: 760px)').addEventListener('change',()=>closeMenu());
+  document.addEventListener('click',e=>{if(!e.target.closest('.export-wrap'))closeExports();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(header?.classList.contains('menu-open')){e.preventDefault();closeMenu(true);}const open=one('.export-menu:not([hidden])');if(open){one('.export-toggle',open.closest('.doc-window'))?.focus();closeExports();}}});
+  if('IntersectionObserver' in window){
+    const sections=all('.policy-section');const links=all('.policy-toc a');
+    const observer=new IntersectionObserver(entries=>{const active=entries.filter(x=>x.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top)[0];if(active)links.forEach(a=>{const selected=a.hash==='#'+active.target.id;a.classList.toggle('is-active',selected);if(selected)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});},{rootMargin:'-100px 0px -55% 0px'});
+    sections.forEach(s=>observer.observe(s));
+  }
+  applyLanguage(language);
+})();
+</script></body></html>
